@@ -1,0 +1,51 @@
+<root>
+	<Properties>
+		<AvatarList>
+			<Type>	AVATAR_LIST		</Type>
+			<Flags>	BASE			</Flags>
+			<Persistent>	true	</Persistent>
+		</AvatarList>
+		<AvatarListInfo>
+			<Type>	AVATAR_LISTINFO	</Type>
+			<Flags>	BASE			</Flags>
+		</AvatarListInfo>
+	</Properties>
+
+	<ClientMethods>
+		<onReqAvatarList>
+			<Arg>AVATAR_LISTINFO	</Arg>
+		</onReqAvatarList>
+
+		<onCreateAvatar>
+		</onCreateAvatar>
+
+		<onRemoveAvatar>
+		</onRemoveAvatar>
+	</ClientMethods>
+
+	<BaseMethods>
+		<reqAvatarList>
+			<Exposed/>
+		</reqAvatarList>
+
+		<reqCreateAvatar>
+			<Exposed/>
+			<Arg>	UINT64 			</Arg>
+			<Arg>	UNICODE 		</Arg>
+		</reqCreateAvatar>
+
+		<reqRemoveAvatar>
+			<Exposed/>
+			<Arg>	UINT64			</Arg>
+		</reqRemoveAvatar>
+
+		<startgame>
+			<Exposed/>
+			<Arg>	UINT64			</Arg>
+		</startgame>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,883 @@
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:08 999] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 000] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 001] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 001] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 009] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 009] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 014] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:8795 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 014] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:8795, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 014] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 015] - 	internalAddr : 10.139.100.106:8795
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 015] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 015] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 391] - Components::findLogger: found logger, addr:10.139.100.106:8789
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 391] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 391] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 402] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 12360 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 403] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 403] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 403] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 572] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 573] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 573] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 580] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 581] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 581] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 582] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:09 660] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 711] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 711] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 714] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:09 715] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:10 341] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:06:10 342] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:17 795] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:19 910] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:22 007] - Components::findComponents: find dbmgr(3)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:24 078] - Components::findComponents: find dbmgr(4)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:26 150] - Components::findComponents: find dbmgr(5)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:28 181] - Components::findComponents: find dbmgr(6)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:30 266] - Components::findComponents: find dbmgr(7)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:32 310] - Components::findComponents: find dbmgr(8)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:34 389] - Components::findComponents: find dbmgr(9)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:36 439] - Components::findComponents: find dbmgr(10)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:38 511] - Components::findComponents: find dbmgr(11)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:40 561] - Components::findComponents: find dbmgr(12)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:42 624] - Components::findComponents: find dbmgr(13)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:44 687] - Components::findComponents: find dbmgr(14)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:46 758] - Components::findComponents: find dbmgr(15)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:06:48 829] - Components::findComponents: find dbmgr(16)...
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:06:50 882] - Components::findComponents: find dbmgr(17)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:06:52 926] - Components::findComponents: find dbmgr(18)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:06:55 004] - Components::findComponents: find dbmgr(19)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:06:57 062] - Components::findComponents: find dbmgr(20)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:06:59 127] - Components::findComponents: find dbmgr(21)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:01 200] - Components::findComponents: find dbmgr(22)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:03 237] - Components::findComponents: find dbmgr(23)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:05 298] - Components::findComponents: find dbmgr(24)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:07 388] - Components::findComponents: find dbmgr(25)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:09 443] - Components::findComponents: find dbmgr(26)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:11 507] - Components::findComponents: find dbmgr(27)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:13 548] - Components::findComponents: find dbmgr(28)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:15 620] - Components::findComponents: find dbmgr(29)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:17 665] - Components::findComponents: find dbmgr(30)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:19 737] - Components::findComponents: find dbmgr(31)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:21 781] - Components::findComponents: find dbmgr(32)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:23 840] - Components::findComponents: find dbmgr(33)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:25 900] - Components::findComponents: find dbmgr(34)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:27 973] - Components::findComponents: find dbmgr(35)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:30 021] - Components::findComponents: find dbmgr(36)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:32 080] - Components::findComponents: find dbmgr(37)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:34 153] - Components::findComponents: find dbmgr(38)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:36 199] - Components::findComponents: find dbmgr(39)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:38 257] - Components::findComponents: find dbmgr(40)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:40 326] - Components::findComponents: find dbmgr(41)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:42 405] - Components::findComponents: find dbmgr(42)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:44 456] - Components::findComponents: find dbmgr(43)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:46 503] - Components::findComponents: find dbmgr(44)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:48 567] - Components::findComponents: find dbmgr(45)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:50 621] - Components::findComponents: find dbmgr(46)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:52 694] - Components::findComponents: find dbmgr(47)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:54 744] - Components::findComponents: find dbmgr(48)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:56 811] - Components::findComponents: find dbmgr(49)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:07:58 882] - Components::findComponents: find dbmgr(50)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:00 966] - Components::findComponents: find dbmgr(51)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:03 019] - Components::findComponents: find dbmgr(52)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:05 080] - Components::findComponents: find dbmgr(53)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:07 145] - Components::findComponents: find dbmgr(54)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:09 203] - Components::findComponents: find dbmgr(55)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:11 259] - Components::findComponents: find dbmgr(56)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:13 336] - Components::findComponents: find dbmgr(57)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:15 407] - Components::findComponents: find dbmgr(58)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:17 464] - Components::findComponents: find dbmgr(59)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:19 514] - Components::findComponents: find dbmgr(60)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:21 579] - Components::findComponents: find dbmgr(61)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:23 634] - Components::findComponents: find dbmgr(62)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:25 703] - Components::findComponents: find dbmgr(63)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:27 746] - Components::findComponents: find dbmgr(64)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:29 799] - Components::findComponents: find dbmgr(65)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:31 879] - Components::findComponents: find dbmgr(66)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:33 920] - Components::findComponents: find dbmgr(67)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:35 973] - Components::findComponents: find dbmgr(68)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:38 047] - Components::findComponents: find dbmgr(69)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:40 098] - Components::findComponents: find dbmgr(70)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:42 138] - Components::findComponents: find dbmgr(71)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:44 252] - Components::findComponents: find dbmgr(72)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:46 301] - Components::findComponents: find dbmgr(73)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:48 341] - Components::findComponents: find dbmgr(74)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:50 382] - Components::findComponents: find dbmgr(75)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:52 411] - Components::findComponents: find dbmgr(76)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:54 464] - Components::findComponents: find dbmgr(77)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:56 491] - Components::findComponents: find dbmgr(78)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:08:58 620] - Components::findComponents: find dbmgr(79)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:00 734] - Components::findComponents: find dbmgr(80)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:02 816] - Components::findComponents: find dbmgr(81)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:04 863] - Components::findComponents: find dbmgr(82)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:06 994] - Components::findComponents: find dbmgr(83)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:09 045] - Components::findComponents: find dbmgr(84)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:11 171] - Components::findComponents: find dbmgr(85)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:13 274] - Components::findComponents: find dbmgr(86)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:15 302] - Components::findComponents: find dbmgr(87)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:17 377] - Components::findComponents: find dbmgr(88)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:19 492] - Components::findComponents: find dbmgr(89)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:21 615] - Components::findComponents: find dbmgr(90)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:23 675] - Components::findComponents: find dbmgr(91)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:25 757] - Components::findComponents: find dbmgr(92)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:27 873] - Components::findComponents: find dbmgr(93)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:29 909] - Components::findComponents: find dbmgr(94)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:31 944] - Components::findComponents: find dbmgr(95)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:34 073] - Components::findComponents: find dbmgr(96)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:36 108] - Components::findComponents: find dbmgr(97)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:38 223] - Components::findComponents: find dbmgr(98)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:40 250] - Components::findComponents: find dbmgr(99)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:42 294] - Components::findComponents: find dbmgr(100)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:44 412] - Components::findComponents: find dbmgr(101)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:46 490] - Components::findComponents: find dbmgr(102)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:48 554] - Components::findComponents: find dbmgr(103)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:50 620] - Components::findComponents: find dbmgr(104)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:52 680] - Components::findComponents: find dbmgr(105)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:54 750] - Components::findComponents: find dbmgr(106)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:56 816] - Components::findComponents: find dbmgr(107)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:09:58 904] - Components::findComponents: find dbmgr(108)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:00 937] - Components::findComponents: find dbmgr(109)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:03 012] - Components::findComponents: find dbmgr(110)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:05 082] - Components::findComponents: find dbmgr(111)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:07 144] - Components::findComponents: find dbmgr(112)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:09 203] - Components::findComponents: find dbmgr(113)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:11 252] - Components::findComponents: find dbmgr(114)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:13 313] - Components::findComponents: find dbmgr(115)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:15 359] - Components::findComponents: find dbmgr(116)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:17 463] - Components::findComponents: find dbmgr(117)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:19 510] - Components::findComponents: find dbmgr(118)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:21 573] - Components::findComponents: find dbmgr(119)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:23 632] - Components::findComponents: find dbmgr(120)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:25 691] - Components::findComponents: find dbmgr(121)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:27 756] - Components::findComponents: find dbmgr(122)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:29 818] - Components::findComponents: find dbmgr(123)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:31 890] - Components::findComponents: find dbmgr(124)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:33 939] - Components::findComponents: find dbmgr(125)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:36 007] - Components::findComponents: find dbmgr(126)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:38 079] - Components::findComponents: find dbmgr(127)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:40 129] - Components::findComponents: find dbmgr(128)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:42 202] - Components::findComponents: find dbmgr(129)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:44 259] - Components::findComponents: find dbmgr(130)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:46 309] - Components::findComponents: find dbmgr(131)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:48 382] - Components::findComponents: find dbmgr(132)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:50 424] - Components::findComponents: find dbmgr(133)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:52 503] - Components::findComponents: find dbmgr(134)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:54 564] - Components::findComponents: find dbmgr(135)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:56 614] - Components::findComponents: find dbmgr(136)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:10:58 673] - Components::findComponents: find dbmgr(137)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:00 733] - Components::findComponents: find dbmgr(138)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:02 791] - Components::findComponents: find dbmgr(139)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:04 852] - Components::findComponents: find dbmgr(140)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:06 911] - Components::findComponents: find dbmgr(141)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:08 999] - Components::findComponents: find dbmgr(142)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:11 039] - Components::findComponents: find dbmgr(143)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:13 103] - Components::findComponents: find dbmgr(144)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:15 161] - Components::findComponents: find dbmgr(145)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:17 205] - Components::findComponents: find dbmgr(146)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:19 269] - Components::findComponents: find dbmgr(147)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:21 340] - Components::findComponents: find dbmgr(148)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:23 394] - Components::findComponents: find dbmgr(149)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:25 460] - Components::findComponents: find dbmgr(150)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:27 513] - Components::findComponents: find dbmgr(151)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:29 572] - Components::findComponents: find dbmgr(152)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:31 617] - Components::findComponents: find dbmgr(153)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:33 700] - Components::findComponents: find dbmgr(154)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:35 762] - Components::findComponents: find dbmgr(155)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:37 797] - Components::findComponents: find dbmgr(156)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:39 863] - Components::findComponents: find dbmgr(157)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:41 935] - Components::findComponents: find dbmgr(158)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:44 017] - Components::findComponents: find dbmgr(159)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:46 101] - Components::findComponents: find dbmgr(160)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:48 153] - Components::findComponents: find dbmgr(161)...
+delay time is too long, please check the dbmgr logs!
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:11:50 191] - Components::findComponents: find dbmgr(162)...
+delay time is too long, please check the dbmgr logs!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 045] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 045] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 046] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 046] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 053] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 054] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 058] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9067 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 059] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9067, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 059] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 059] - 	internalAddr : 10.139.100.106:9067
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 059] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 060] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 382] - Components::findLogger: found logger, addr:10.139.100.106:9061
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 382] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 383] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 390] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 6696 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 390] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 391] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 391] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 552] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 553] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 553] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 557] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 558] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 558] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 559] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:56 616] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 671] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 671] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 675] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:56 675] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:11:57 465] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:11:57 466] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:04 854] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:06 927] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:09 003] - Components::findComponents: find dbmgr(3)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 325] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 326] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 326] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 327] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 333] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 333] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 337] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9088 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 337] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9088, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 337] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 338] - 	internalAddr : 10.139.100.106:9088
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 338] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 338] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 701] - Components::findLogger: found logger, addr:10.139.100.106:9082
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 701] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 702] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 714] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 1064 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 715] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 715] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:29 715] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 900] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 901] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 902] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 912] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 913] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 913] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 915] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:29 986] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:30 045] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:30 045] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:12:30 048] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:30 048] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:30 639] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:12:30 639] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:38 061] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:40 151] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:42 253] - Components::findComponents: find dbmgr(3)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:44 300] - Components::findComponents: find dbmgr(4)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:46 358] - Components::findComponents: find dbmgr(5)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:48 427] - Components::findComponents: find dbmgr(6)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:50 478] - Components::findComponents: find dbmgr(7)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:52 549] - Components::findComponents: find dbmgr(8)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:54 622] - Components::findComponents: find dbmgr(9)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:56 655] - Components::findComponents: find dbmgr(10)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:12:58 728] - Components::findComponents: find dbmgr(11)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:00 802] - Components::findComponents: find dbmgr(12)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 848] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 849] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 849] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 849] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 855] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 855] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 858] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9112 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 859] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9112, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 859] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 859] - 	internalAddr : 10.139.100.106:9112
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 859] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:05 859] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 559] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 2572 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 560] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 560] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 560] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 724] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 725] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 725] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 729] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 730] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 730] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 730] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:07 801] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 860] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 860] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 864] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:07 864] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:08 429] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:13:08 429] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 760] - Components::findComponents: find logger(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 837] - Components::findComponents: found logger, addr:10.139.100.106:9106
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 838] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 839] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 842] - Components::findComponents: find dbmgr(2)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 956] - Components::findComponents: found dbmgr, addr:10.139.100.106:9107
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 956] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 957] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:15 957] - Components::findComponents: found dbmgr, addr:10.139.100.106:9107
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:17 972] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:17 993] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9108
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:17 993] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:17 994] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9108
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:20 049] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:20 064] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:20 080] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:13:25 826] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=73AC86ABA82981F833754BCD1B51B927.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:13:27 124] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:13:27 124] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:13:27 711] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 184] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 186] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 186] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 187] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 195] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 195] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 200] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9512 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 200] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9512, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 200] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 200] - 	internalAddr : 10.139.100.106:9512
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 200] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 201] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 539] - Components::findLogger: found logger, addr:10.139.100.106:9495
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 540] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:52 540] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:56 733] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 12212 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:56 734] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:56 735] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:56 736] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 898] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 899] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 900] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 906] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 907] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 907] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 908] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:56 979] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:57 032] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:57 032] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:30:57 036] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:57 036] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:30:57 714] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:30:57 715] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:05 148] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:05 169] - Components::findComponents: found dbmgr, addr:10.139.100.106:9496
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:05 169] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:05 170] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:05 171] - Components::findComponents: found dbmgr, addr:10.139.100.106:9496
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:07 183] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:07 266] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9498
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:07 266] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:07 268] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9498
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:09 303] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:09 319] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:09 349] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:31:12 357] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:31:13 659] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:31:13 659] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:31:14 184] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 116] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 118] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 118] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 118] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 125] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 126] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 130] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9561 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 130] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9561, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 131] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 131] - 	internalAddr : 10.139.100.106:9561
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 131] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 131] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 377] - Components::findLogger: found logger, addr:10.139.100.106:9555
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 377] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 378] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 385] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 14524 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 386] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 386] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 386] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 563] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 564] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 565] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 595] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 596] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 596] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 597] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:06 670] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 732] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 732] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 736] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:06 736] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:07 309] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:32:07 309] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:14 818] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:14 838] - Components::findComponents: found dbmgr, addr:10.139.100.106:9556
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:14 838] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:14 838] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:14 839] - Components::findComponents: found dbmgr, addr:10.139.100.106:9556
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:16 869] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:16 920] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9557
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:16 920] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:16 921] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9557
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:18 956] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:18 976] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:18 990] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:32:24 438] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:32:25 736] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:32:25 736] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:32:26 264] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 916] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 917] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 917] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 917] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 924] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 925] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 928] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9710 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 928] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9710, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 928] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 929] - 	internalAddr : 10.139.100.106:9710
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 929] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:39 929] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 259] - Components::findLogger: found logger, addr:10.139.100.106:9704
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 259] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 260] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 270] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 15048 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 271] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 272] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 272] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 447] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 448] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 449] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 454] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 455] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 455] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 456] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:40 544] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 643] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 643] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 649] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:40 649] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:41 332] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:34:41 332] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:48 780] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:48 880] - Components::findComponents: found dbmgr, addr:10.139.100.106:9705
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:48 880] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:48 880] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:48 882] - Components::findComponents: found dbmgr, addr:10.139.100.106:9705
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:50 909] - Components::findComponents: find baseappmgr(1)...
+ WARNING   loginapp-1 10103 9000  [2018-05-13 09:34:51 388] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20556, errorno=10048
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:52 396] - Components::findComponents: find baseappmgr(2)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:52 429] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9706
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:52 429] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:52 429] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9706
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:54 454] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:54 470] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:54 500] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:34:58 248] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=3, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:34:59 548] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:34:59 549] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 362] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 363] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 364] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 364] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 370] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 370] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 374] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9749 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 375] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9749, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 375] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 375] - 	internalAddr : 10.139.100.106:9749
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 375] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 375] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 601] - Components::findLogger: found logger, addr:10.139.100.106:9744
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 602] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 602] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 610] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 6296 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 610] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 611] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 612] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 781] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 782] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 783] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 789] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 789] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 790] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 791] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:21 858] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 924] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 924] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 928] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:21 928] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:22 596] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:35:22 598] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:30 109] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:30 207] - Components::findComponents: found dbmgr, addr:10.139.100.106:9745
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:30 207] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:30 207] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:30 208] - Components::findComponents: found dbmgr, addr:10.139.100.106:9745
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:32 230] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:32 299] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9746
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:32 299] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:32 301] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9746
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:34 336] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:34 352] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:34 355] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:35:41 062] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:35:42 364] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:35:42 364] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:35:42 997] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:35:55 167] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:9797/0/0/0
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:35:55 168] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:9797/0/0/0
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:35:55 248] - onRequestLogin() loginName=cxx, clientType=7
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:35:55 248] - PendingLoginMgr::add: cxx, size=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:35:55 248] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=cxx, datas=PC.
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:35:55 407] - onLoginCallbackFromDB() loginName=cxx, accountName=cxx, errorno=0
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:35:55 508] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=cxx, addr=10.139.100.106:20015.
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:35:55 508] - PendingLoginMgr::remove: cxx, size=0.
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:35:55 548] - TCPPacketReceiver::processPendingEvents(127.0.0.1:9797): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 819] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 820] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 820] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 820] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 826] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 826] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 830] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:9829 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 831] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:9829, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 831] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 831] - 	internalAddr : 10.139.100.106:9829
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 831] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:18 831] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 112] - Components::findLogger: found logger, addr:10.139.100.106:9823
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 112] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 112] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 120] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 12936 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 121] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 121] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 121] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 283] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 283] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 284] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 287] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 288] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 288] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 289] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 338] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 391] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 391] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 395] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 395] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:19 963] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:38:19 964] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:27 307] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:27 362] - Components::findComponents: found dbmgr, addr:10.139.100.106:9824
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:27 362] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:27 363] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:27 364] - Components::findComponents: found dbmgr, addr:10.139.100.106:9824
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:29 387] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:29 486] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9825
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:29 486] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:29 487] - Components::findComponents: found baseappmgr, addr:10.139.100.106:9825
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:31 530] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:31 546] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:31 561] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:38:36 816] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:38:38 119] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:38:38 119] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:38:38 845] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:39:07 634] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:9873/0/0/0
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:39:07 635] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:9873/0/0/0
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:39:07 714] - onRequestLogin() loginName=cxx, clientType=7
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:39:07 715] - PendingLoginMgr::add: cxx, size=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:39:07 715] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=cxx, datas=PC.
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:39:07 815] - onLoginCallbackFromDB() loginName=cxx, accountName=cxx, errorno=0
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:39:07 874] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=cxx, addr=10.139.100.106:20015.
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:39:07 874] - PendingLoginMgr::remove: cxx, size=0.
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:39:07 911] - TCPPacketReceiver::processPendingEvents(127.0.0.1:9873): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 770] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 771] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 771] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 772] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 780] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 780] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 785] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:10181 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 785] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:10181, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 785] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 785] - 	internalAddr : 10.139.100.106:10181
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 786] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:43 786] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 064] - Components::findLogger: found logger, addr:10.139.100.106:10175
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 064] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 064] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 075] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 652 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 076] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 076] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 076] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 225] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 225] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 226] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 231] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 232] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 232] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 233] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:44 298] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 351] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 351] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 355] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:44 356] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:45 122] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 09:56:45 123] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:52 647] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:52 748] - Components::findComponents: found dbmgr, addr:10.139.100.106:10176
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:52 748] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:52 749] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:52 750] - Components::findComponents: found dbmgr, addr:10.139.100.106:10176
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:54 768] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:54 870] - Components::findComponents: found baseappmgr, addr:10.139.100.106:10177
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:54 870] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:54 872] - Components::findComponents: found baseappmgr, addr:10.139.100.106:10177
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:56 904] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:56 920] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:56:56 935] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 09:57:02 244] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=1, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:57:03 550] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:57:03 550] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.31 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 09:57:04 497] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:58:50 170] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:10243/0/0/0
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:58:50 171] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:10243/0/0/0
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:58:50 251] - onRequestLogin() loginName=cxx, clientType=7
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:58:50 251] - PendingLoginMgr::add: cxx, size=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 09:58:50 251] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=cxx, datas=PC.
+  S_INFO   loginapp01 10103 9000  [2018-05-13 09:58:50 391] - onLoginCallbackFromDB() loginName=cxx, accountName=cxx, errorno=0
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:58:50 470] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=cxx, addr=10.139.100.106:20015.
+   DEBUG   loginapp01 10103 9000  [2018-05-13 09:58:50 470] - PendingLoginMgr::remove: cxx, size=0.
+ WARNING   loginapp01 10103 9000  [2018-05-13 09:58:50 547] - TCPPacketReceiver::processPendingEvents(127.0.0.1:10243): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 819] - -----------------------------------------------------------------------------------------
+
+
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 820] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 821] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 821] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 828] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:20013 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 828] - NetworkInterface::initialize(EXTERNAL): address 10.139.100.106:20013, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 834] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.100.106 ( 10.139.100.106:10423 )
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 834] - NetworkInterface::initialize(INTERNAL): address 10.139.100.106:10423, SOMAXCONN=128.
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 834] - server-configs:
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 834] - 	internalAddr : 10.139.100.106:10423
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 835] - 	externalAddr : 10.139.100.106:20013
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:51 835] - 	componentID : 9000
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:52 111] - Components::findLogger: found logger, addr:10.139.100.106:10403
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:52 112] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:52 112] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 528] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 15148 ----
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 530] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 531] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 532] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 757] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 758] - Script::install_py_dlls(): PyInit__socket
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 760] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 771] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 772] - Script::install_py_dlls(): PyInit_select
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 772] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 774] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:57 849] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 899] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 899] - Script::install(): KBExtra is successfully!
+  S_INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 903] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:57 903] - TelnetServer server is running on port 31000
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:08:58 539] - ---- loginapp is running ----
+   DEBUG   loginapp-1 10103 9000  [2018-05-13 10:08:58 540] - Components::process(): Request for the process of identity...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:05 974] - Components::findComponents: find dbmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:05 997] - Components::findComponents: found dbmgr, addr:10.139.100.106:10406
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:05 997] - Components::addComponent: reset orderLog, uid=10103!
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:05 997] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:05 998] - Components::findComponents: found dbmgr, addr:10.139.100.106:10406
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:08 009] - Components::findComponents: find baseappmgr(1)...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:08 079] - Components::findComponents: found baseappmgr, addr:10.139.100.106:10408
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:08 079] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:08 081] - Components::findComponents: found baseappmgr, addr:10.139.100.106:10408
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:10 113] - Components::findComponents: register self to dbmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:10 129] - Components::findComponents: register self to baseappmgr...
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:10 145] - Components::process(): Found all the components!
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:11 955] - Loginapp::onBaseappInitProgress: progress=1.
+    INFO   loginapp-1 10103 9000  [2018-05-13 10:09:13 150] - Loginapp::onDbmgrInitCompleted:startGlobalOrder=5, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO   loginapp01 10103 9000  [2018-05-13 10:09:14 451] - HTTPCBHandler::bind: 10.139.100.106:21103
+ WARNING   loginapp01 10103 9000  [2018-05-13 10:09:14 451] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+    INFO   loginapp01 10103 9000  [2018-05-13 10:11:32 740] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:10485/0/0/0
+ WARNING   loginapp01 10103 9000  [2018-05-13 10:11:32 741] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:10485/0/0/0
+  S_INFO   loginapp01 10103 9000  [2018-05-13 10:11:32 821] - onRequestLogin() loginName=cxx, clientType=7
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:11:32 821] - PendingLoginMgr::add: cxx, size=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 10:11:32 821] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=cxx, datas=PC.
+  S_INFO   loginapp01 10103 9000  [2018-05-13 10:11:32 921] - onLoginCallbackFromDB() loginName=cxx, accountName=cxx, errorno=0
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:11:33 021] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=cxx, addr=10.139.100.106:20015.
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:11:33 021] - PendingLoginMgr::remove: cxx, size=0.
+ WARNING   loginapp01 10103 9000  [2018-05-13 10:11:33 114] - TCPPacketReceiver::processPendingEvents(127.0.0.1:10485): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+    INFO   loginapp01 10103 9000  [2018-05-13 10:42:06 164] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:127.0.0.1:10834/0/0/0
+ WARNING   loginapp01 10103 9000  [2018-05-13 10:42:06 164] - Loginapp::onHello: client is not encrypted, addr=127.0.0.1:10834/0/0/0
+  S_INFO   loginapp01 10103 9000  [2018-05-13 10:42:06 243] - onRequestLogin() loginName=cxx, clientType=7
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:42:06 244] - PendingLoginMgr::add: cxx, size=1.
+    INFO   loginapp01 10103 9000  [2018-05-13 10:42:06 244] - Loginapp::login: new client[CLIENT_TYPE_MINI], loginName=cxx, datas=PC.
+  S_INFO   loginapp01 10103 9000  [2018-05-13 10:42:06 323] - onLoginCallbackFromDB() loginName=cxx, accountName=cxx, errorno=0
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:42:06 423] - Loginapp::onLoginAccountQueryBaseappAddrFromBaseappmgr:accountName=cxx, addr=10.139.100.106:20015.
+   DEBUG   loginapp01 10103 9000  [2018-05-13 10:42:06 423] - PendingLoginMgr::remove: cxx, size=0.
+ WARNING   loginapp01 10103 9000  [2018-05-13 10:42:06 451] - TCPPacketReceiver::processPendingEvents(127.0.0.1:10834): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET

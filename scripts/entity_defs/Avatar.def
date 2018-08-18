@@ -1,0 +1,129 @@
+<root>
+	<Interfaces>
+		<Interface>	Equipment	</Interface>
+		<Interface>	Attribute	</Interface>
+	</Interfaces>
+
+
+
+
+
+	<Properties>
+		<playerName>
+			<Type>	UNICODE				</Type>
+			<Flags>	ALL_CLIENTS			</Flags>
+			<Persistent>	true		</Persistent>
+		</playerName>
+		<image_head>
+			<Type>	INT8				</Type>
+			<Flags>	ALL_CLIENTS			</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		-1			</Default>
+		</image_head>
+		<level>
+			<Type>	level				</Type>
+			<Flags>	ALL_CLIENTS			</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		1			</Default>
+		</level>
+
+		<exp>
+			<Type>			EXP		</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		0			</Default>
+		</exp>
+		<exp_max>
+			<Type>			EXP		</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Persistent>	true		</Persistent>
+			<Default>		0			</Default>
+		</exp_max>
+
+
+
+
+
+
+
+
+
+
+
+
+	</Properties>
+
+	<ClientMethods>
+		<getPlayerList_client>
+			<Arg>	PLAYER_LIST_NAME	</Arg>
+		</getPlayerList_client>
+		<ReceiveMessage_client>
+			<Arg>	UNICODE				</Arg>
+			<Arg>	INT8				</Arg>
+			<Arg>	UNICODE				</Arg>
+		</ReceiveMessage_client>
+
+
+
+
+
+
+
+
+
+
+	</ClientMethods>
+
+	<BaseMethods>
+		<setName>
+			<Exposed/>
+			<Arg>	UNICODE				</Arg>
+		</setName>
+
+		<sendMessage>
+			<Exposed/>
+			<Arg>	UNICODE				</Arg>
+		</sendMessage>
+
+		<getPlayerList>
+			<Arg>PLAYER_LIST_NAME 		</Arg>
+		</getPlayerList>
+		<EnterChat>
+			<Exposed/>
+		</EnterChat>
+		<clean>
+		</clean>
+		<ReceiveMessage>
+			<Exposed/>
+			<Arg>	UNICODE	</Arg>
+			<Arg>	UINT64	</Arg>
+			<Arg>	UNICODE	</Arg>
+		</ReceiveMessage>
+
+
+
+
+		<onhit>
+			<Exposed/>
+			<Arg>	INT64	</Arg>
+		</onhit>
+
+
+		<reqsendEquipment_ON>
+			<Exposed/>
+		</reqsendEquipment_ON>
+		<reqsendEquipment_BAG>
+			<Exposed/>
+		</reqsendEquipment_BAG>
+
+
+
+
+
+
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

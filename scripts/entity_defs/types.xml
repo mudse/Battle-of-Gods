@@ -1,0 +1,149 @@
+<root>
+
+
+  
+  <level>  INT64  </level>
+  <HP>    INT64   </HP>
+  <MP>    INT64   </MP>
+  <Defense>      INT64   </Defense>
+  <Damage>      INT64   </Damage>
+  <Attack_Speed>      FLOAT    </Attack_Speed>
+  <Weapon_Range>      FLOAT    </Weapon_Range>
+  <EXP>      INT64   </EXP>
+
+
+
+
+  <Equipment_MOULD> FIXED_DICT
+    <Properties>
+      <id>
+        <Type>	INT64	</Type>
+      </id>
+      <name>
+        <Type>	UNICODE	</Type>
+      </name>
+      <level_need>
+        <Type>	INT64	</Type>
+      </level_need>
+      <type>
+        <Type>	INT64	</Type>
+      </type>
+      <damage1>
+        <Type>	INT64	</Type>
+      </damage1>
+      <damage2>
+        <Type>	INT64	</Type>
+      </damage2>
+      <attack_speed>
+        <Type>	FLOAT	</Type>
+      </attack_speed>
+      <weapon_range>
+        <Type>	FLOAT	</Type>
+      </weapon_range>
+      <defense>
+        <Type>	INT64	</Type>
+      </defense>
+      <hp>    
+        <Type>  INT64 </Type>
+      </hp>
+      <mp>    
+        <Type>  INT64 </Type>
+      </mp>
+    </Properties>
+  </Equipment_MOULD>
+  
+  <Equipment_Mould_LIST> 
+     ARRAY <of> Equipment_MOULD </of> 
+  </Equipment_Mould_LIST>
+
+  <Equipment> FIXED_DICT
+    <Properties>
+      <owner_id>
+        <Type>  UINT64  </Type>
+      </owner_id>
+      <name>
+        <Type>  UNICODE </Type>
+      </name>
+      <level_need>
+        <Type>  UINT64  </Type>
+      </level_need>
+      <type>
+        <Type>  UINT64  </Type>
+      </type>
+      <attack>
+        <Type>  FLOAT </Type>
+      </attack>
+      <attack_speed>
+        <Type>  FLOAT </Type>
+      </attack_speed>
+      <attack_violent>
+        <Type>  FLOAT </Type>
+      </attack_violent>
+      <attack_scope>
+        <Type>  UINT64  </Type>
+      </attack_scope>
+      <defense>
+        <Type>  FLOAT </Type>
+      </defense>
+      <ES>
+        <Type>  FLOAT </Type>
+      </ES>
+      <evasion>
+        <Type>  FLOAT </Type>
+      </evasion>
+      <evasion_roll>
+        <Type>  UINT64  </Type>
+      </evasion_roll>
+      <affix_id>
+        <Type>
+          ARRAY<of> UINT64 </of>
+      </Type>
+      </affix_id>
+    </Properties>
+  </Equipment>
+  
+  <Equipment_LIST>
+    ARRAY<of> Equipment </of>
+  </Equipment_LIST>
+
+  <SPACE_KEY>       UINT64    </SPACE_KEY>
+  <ENTITY_ID>       UINT32    </ENTITY_ID>
+  <ENTITY_LIST>
+    ARRAY<of>ENTITYCALL</of>
+  </ENTITY_LIST>
+
+  <PLAYER_LIST_NAME>
+    ARRAY<of>UNICODE</of>
+  </PLAYER_LIST_NAME>
+
+  <PLAYER_LIST>
+    ARRAY<of>ENTITYCALL</of>
+  </PLAYER_LIST>
+
+  <DBID>UINT64</DBID>
+
+  <AVATAR_LIST>
+    ARRAY<of>DBID</of>
+  </AVATAR_LIST>
+
+  <AVATAR_INFO> FIXED_DICT
+    <Properties>
+      <DBID>
+        <Type>  UINT64  </Type>
+      </DBID>
+      <Image_Head>
+        <Type>  UINT64  </Type>
+      </Image_Head>
+      <Level>
+        <Type>  UINT64  </Type>
+      </Level>
+      <PlayerName>
+        <Type>  UNICODE </Type>
+      </PlayerName>
+    </Properties>
+  </AVATAR_INFO>
+
+  <AVATAR_LISTINFO>
+    ARRAY<of>AVATAR_INFO</of>
+  </AVATAR_LISTINFO>
+</root>

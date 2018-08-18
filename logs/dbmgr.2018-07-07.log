@@ -1,0 +1,77 @@
+  INFO root [2018-07-07 15:45:23,138] - 
+  INFO root [2018-07-07 15:45:23,139] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-07-07 15:45:23,141] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-07-07 15:45:23,141] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-07-07 15:45:23,141] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-07-07 15:45:23,153] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.1.9.4 ( 10.1.9.4:33803 )
+  INFO root [2018-07-07 15:45:23,159] - NetworkInterface::initialize(INTERNAL): address 10.1.9.4:33803, SOMAXCONN=5.
+  INFO root [2018-07-07 15:45:23,159] - server-configs:
+  INFO root [2018-07-07 15:45:23,159] - 	internalAddr : 10.1.9.4:33803
+  INFO root [2018-07-07 15:45:23,159] - 	componentID : 4000
+  INFO root [2018-07-07 15:45:24,670] - ---- dbmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: F28F1C37BCC70CD27B77841D4A30E3D7. Config: Debug X86. Built: 16:26:54 Apr 30 2018. AppID: 4000. UID: 10103. PID: 8948 ----
+  INFO root [2018-07-07 15:45:24,670] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-07-07 15:45:24,671] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-07 15:45:24,671] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-07-07 15:45:24,849] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-07-07 15:45:24,850] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-07-07 15:45:24,850] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-07-07 15:45:24,856] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-07-07 15:45:24,857] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-07-07 15:45:24,858] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-07-07 15:45:24,859] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-07-07 15:45:24,933] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-07-07 15:45:25,041] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:26:41) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-07-07 15:45:25,041] - Script::install(): KBExtra is successfully!
+  INFO root [2018-07-07 15:45:25,277] - Dbmgr::initializeEnd: digest(C95DE6D5002D07290C22E7EB545AD684)
+S_INFO root [2018-07-07 15:45:25,277] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-07-07 15:45:25,278] - TelnetServer server is running on port 32000
+  INFO root [2018-07-07 15:45:25,279] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+  WARN root [2018-07-07 15:45:25,720] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+5B3DF3044AF0A0F74AF93D7A7E1232EA0CA46E1F15703788FD13500B14362EECC694816023895EE4E7D92616D0A6E562B2751AF5BBFF7BE689DF10804C6F6A0871D57F748A3A44CE86CADD7D63F0FABC58BCC0D93814996E966D1ABE48F3F9747A790746F9123DF0FF4DE047919776D8E449741B36B8BF0F3CA56FC02A0096DC
+ DEBUG root [2018-07-07 15:45:25,891] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,154] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+  INFO root [2018-07-07 15:45:26,154] - DBUtil::createInterface[0xeff43c]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=Battle_of_Gods, username=root, connected=yes.
+
+  INFO root [2018-07-07 15:45:26,155] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-07-07 15:45:26,155] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+ DEBUG root [2018-07-07 15:45:26,156] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,156] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,156] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,157] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,157] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+ DEBUG root [2018-07-07 15:45:26,166] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2018-07-07 15:45:26,166] - DBThread::onStart(): 0x272cf40!
+ DEBUG root [2018-07-07 15:45:26,167] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2018-07-07 15:45:26,168] - DBThread::onStart(): 0x272d160!
+ DEBUG root [2018-07-07 15:45:26,170] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2018-07-07 15:45:26,170] - DBThread::onStart(): 0x272d1e8!
+ DEBUG root [2018-07-07 15:45:26,172] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2018-07-07 15:45:26,172] - DBThread::onStart(): 0x272d0d8!
+ DEBUG root [2018-07-07 15:45:26,181] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+ DEBUG root [2018-07-07 15:45:26,181] - DBThread::onStart(): 0x272d050!
+  INFO root [2018-07-07 15:45:26,265] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,268] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,271] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,272] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,272] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,272] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,273] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,273] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,274] - DBInterfaceMysql::query: successfully!
+  INFO root [2018-07-07 15:45:26,282] - DBInterfaceMysql::query: successfully!
+  WARN root [2018-07-07 15:45:26,302] - dbmgr.cpp:275: Profile scriptCall took 1.03 seconds
+  INFO root [2018-07-07 15:45:27,057] - ---- dbmgr is running ----
+ DEBUG root [2018-07-07 15:45:27,058] - Components::process(): Request for the process of identity...
+  INFO root [2018-07-07 15:45:34,436] - Components::findComponents: find logger(1)...
+  INFO root [2018-07-07 15:45:34,528] - Components::findComponents: found logger, addr:10.1.9.4:33793
+  INFO root [2018-07-07 15:45:34,529] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-07-07 15:45:34,529] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  WARN root [2018-07-07 15:45:34,532] - Forwarding logs to logger[10.1.9.4:33793/0/0/0]...
+ ERROR root [2018-07-07 16:03:52,785] - DBTaskAccountLogin::db_thread_process(): not found account[ewq123], login failed!
+ ERROR root [2018-07-07 16:33:12,620] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-07-07 16:33:12,623] - The following logs sent to logger failed:
+  WARN root [2018-07-07 16:33:12,624] - ==> [2018-07-07 16:33:12 619] TCPPacketReceiver::processPendingEvents(10.1.9.4:33793): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-07-07 16:33:12,624] - ==> [2018-07-07 16:33:12 620] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054

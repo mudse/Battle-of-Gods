@@ -1,0 +1,58 @@
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,487] - 
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,487] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,487] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,487] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,487] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,502] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.3.16.255 ( 10.3.16.255:12904 )
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - NetworkInterface::initialize(INTERNAL): address 10.3.16.255:12904, SOMAXCONN=5.
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - server-configs:
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	gameUpdateHertz : 10
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	defaultViewRadius : 80
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	entryScriptFile : kbemain
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	internalAddr : 10.3.16.255:12904
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,518] - 	componentID : 8001
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - Components::findLogger: found logger, addr:10.3.16.255:12866
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - ---- cellapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: 85A70C5E64F896E0F1A60BF405B4EB07. Config: Debug X86. Built: 16:28:54 Apr 30 2018. AppID: 8001. UID: 10103. PID: 10172 ----
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,565] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,721] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,721] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,721] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,721] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,721] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,737] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,737] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:52,768] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,815] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:35) [MSC v.1900 32 bit (Intel)])!
+  INFO root [0x00002bc8] [2018-07-09 08:19:52,815] - Script::install(): KBExtra is successfully!
+  INFO root [0x00002bc8] [2018-07-09 08:19:53,018] - TelnetServer server is running on port 50000
+  INFO root [0x00002bc8] [2018-07-09 08:19:53,486] - ---- cellapp is running ----
+ DEBUG root [0x00002bc8] [2018-07-09 08:19:53,486] - Components::process(): Request for the process of identity...
+  WARN root [0x00002bc8] [2018-07-09 08:19:59,831] - Forwarding logs to logger[10.3.16.255:12866/0/0/0]...
+ ERROR root [0x00002bc8] [2018-07-09 08:25:25,819] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00002bc8] [2018-07-09 08:25:25,835] - The following logs sent to logger failed:
+  WARN root [0x00002bc8] [2018-07-09 08:25:25,835] - ==> [2018-07-09 08:25:25 834] TCPPacketReceiver::processPendingEvents(10.3.16.255:12866): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002bc8] [2018-07-09 08:25:25,835] - ==> [2018-07-09 08:25:25 835] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00002bc8] [2018-07-09 08:25:25,913] - TCPPacketReceiver::processPendingEvents(10.3.16.255:12882): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002bc8] [2018-07-09 08:25:25,913] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00002bc8] [2018-07-09 08:25:25,913] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002bc8] [2018-07-09 08:25:25,913] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002bc8] [2018-07-09 08:25:25,913] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,913] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,913] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,929] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00002bc8] [2018-07-09 08:25:25,944] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002bc8] [2018-07-09 08:25:25,944] - ThreadPool::destroy(): starting size 2.

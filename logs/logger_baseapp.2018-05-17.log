@@ -1,0 +1,1910 @@
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 795] - -----------------------------------------------------------------------------------------
+
+
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 796] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 796] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 796] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 817] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 10.1.9.9 ( 10.1.9.9:20015 )
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 817] - NetworkInterface::initialize(EXTERNAL): address 10.1.9.9:20015, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 820] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.1.9.9 ( 10.1.9.9:26795 )
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - NetworkInterface::initialize(INTERNAL): address 10.1.9.9:26795, SOMAXCONN=128.
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - server-configs:
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - 	gameUpdateHertz : 10
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - 	entryScriptFile : kbemain
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - 	internalAddr : 10.1.9.9:26795
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - 	externalAddr : 10.1.9.9:20015
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 821] - 	componentID : 7001
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 975] - Components::findLogger: found logger, addr:10.1.9.9:26776
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 975] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 975] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 982] - ---- baseapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: F9DFFB319FBADF35943ADF4D42C4718C. Config: Debug X86. Built: 16:27:53 Apr 30 2018. AppID: 7001. UID: 10103. PID: 15408 ----
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 983] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 983] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:44 983] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 136] - Script::install_py_dlls(): PyInit_pyexpat
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 137] - Script::install_py_dlls(): PyInit__socket
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 137] - Script::install_py_dlls(): PyInit__ssl
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 141] - Script::install_py_dlls(): PyInit__hashlib
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 141] - Script::install_py_dlls(): PyInit_select
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 141] - Script::install_py_dlls(): PyInit__ctypes
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 142] - Script::install_py_dlls(): PyInit__elementtree
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 190] - Script::install_py_dlls(): PyInit_unicodedata
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:45 242] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:45 242] - Script::install(): KBExtra is successfully!
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:45 332] - loaded entity-script:Account(1).
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:46 481] - loaded entity-script:Equipment(2).
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:46 482] - Baseapp::initializeEnd: started resmgr tick(60s)!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:46 482] - TelnetServer server is running on port 40000
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:46 941] - ---- baseapp is running ----
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:49:46 941] - Components::process(): Request for the process of identity...
+ WARNING    baseapp-1 10103 7001  [2018-05-17 22:49:53 229] - EntityApp::checkTickPeriod: tick took 6287% (6.29 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:54 307] - Components::findComponents: find dbmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:54 421] - Components::findComponents: found dbmgr, addr:10.1.9.9:26779
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:54 421] - Components::addComponent: reset orderLog, uid=10103!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:54 421] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:54 422] - Components::findComponents: found dbmgr, addr:10.1.9.9:26779
+ WARNING    baseapp-1 10103 7001  [2018-05-17 22:49:55 431] - EntityApp::checkTickPeriod: tick took 1186% (1.19 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:56 456] - Components::findComponents: find baseappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:56 491] - Components::findComponents: found baseappmgr, addr:10.1.9.9:26783
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:56 491] - Components::addComponent[baseappmgr], uid=10103, componentID=5000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:56 492] - Components::findComponents: found baseappmgr, addr:10.1.9.9:26783
+ WARNING    baseapp-1 10103 7001  [2018-05-17 22:49:57 497] - EntityApp::checkTickPeriod: tick took 1150% (1.15 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:58 507] - Components::findComponents: find cellappmgr(1)...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:58 557] - Components::findComponents: found cellappmgr, addr:10.1.9.9:26791
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:58 557] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:49:58 558] - Components::findComponents: found cellappmgr, addr:10.1.9.9:26791
+ WARNING    baseapp-1 10103 7001  [2018-05-17 22:49:59 564] - EntityApp::checkTickPeriod: tick took 1119% (1.12 seconds)!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:00 649] - Components::findComponents: register self to dbmgr...
+   DEBUG    baseapp-1 10103 7001  [2018-05-17 22:50:00 650] - SyncEntityStreamTemplateHandler::~SyncEntityStreamTemplateHandler()
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:00 710] - Components::findComponents: register self to baseappmgr...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:00 742] - Components::findComponents: register self to cellappmgr...
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:00 804] - Components::process(): Found all the components!
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:02 254] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=4, grouporderID=1, intaddr:10.1.9.9, intport:26800, extaddr:nonsupport, extport:0,  from 10.1.9.9:26779/0/0/0.
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:02 255] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO    baseapp-1 10103 7001  [2018-05-17 22:50:05 454] - EntityApp::onDbmgrInitCompleted: entityID alloc(1-2001), startGlobalOrder=3, startGroupOrder=1, digest=47E02E83D13FC3CB5071E9AA793D2682.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:05 454] - IDClient::onAddRange: number of ids increased from 1 to 2001.
+  S_INFO    baseapp01 10103 7001  [2018-05-17 22:50:06 756] - onInit::isReload:0
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:06 756] - D:\kbengine-2.0.0\kbe\src\lib\server/entity_app.h:749: Profile processRecvMessages took 1.30 seconds
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:06 757] - baseapp.cpp:505: Profile gameTick took 1.30 seconds
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:06 757] - event_dispatcher.cpp:153: Profile callSystemTimers took 1.30 seconds
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:06 758] - EntityApp::checkTickPeriod: tick took 1304% (1.30 seconds)!
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:07 253] - EntityAutoLoader::~EntityAutoLoader()
+  S_INFO    baseapp01 10103 7001  [2018-05-17 22:50:07 300] - onBaseAppReady: isBootstrap=True, appID=7001, bootstrapGroupIndex=1, bootstrapGlobalIndex=3
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:07 347] - InitProgressHandler::~InitProgressHandler()
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:07 456] - EntityApp::createEntity: new Equipment 1
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:24 041] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:24 341] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:26832/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:24 341] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:26832/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:24 441] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:26832/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:24 541] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:24 541] - EntityApp::createEntity: new Account 2
+  S_INFO    baseapp01 10103 7001  [2018-05-17 22:50:24 542] - account[2] entities enable. entityCall:Client id:2, utype:1, component=client[0], addr: 10.1.9.9:26832.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:50:24 542] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556562315180179456, entityID=2, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:29 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:29 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:30 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:30 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:31 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:31 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:32 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:32 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:33 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:33 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:34 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:34 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:35 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:35 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:36 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:36 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:37 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:37 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:38 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:38 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:39 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:39 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:40 544] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:40 544] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:41 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:41 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:42 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:42 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:43 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:43 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:44 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:44 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:45 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:45 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:46 542] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:46 542] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:47 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:47 541] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:48 541] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:48 541] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:50:48 958] - TCPPacketReceiver::processPendingEvents(10.1.9.9:26832): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:48 958] - Account::onClientDeath: 2.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:50:48 958] - Account[2].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:50:48 959] - Account::~Account(): 2
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:54:58 641] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:54:58 941] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:26886/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:54:58 941] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:26886/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 22:54:59 041] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:26886/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:54:59 140] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:54:59 141] - EntityApp::createEntity: new Account 3
+  S_INFO    baseapp01 10103 7001  [2018-05-17 22:54:59 143] - account[3] entities enable. entityCall:Client id:3, utype:1, component=client[0], addr: 10.1.9.9:26886.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:54:59 143] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556563496296185856, entityID=3, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:04 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:04 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:05 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:05 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:06 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:06 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:07 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:07 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:08 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:08 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:09 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:09 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:10 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:10 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:11 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:11 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:12 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:12 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:13 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:13 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:14 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:14 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:15 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:15 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:16 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:16 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:17 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:17 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:18 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:18 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:19 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:19 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:20 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:20 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:21 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:21 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:22 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:22 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:23 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:23 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:24 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:24 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:25 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:25 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:26 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:26 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:27 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:27 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:28 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:28 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:29 142] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:29 142] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:30 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:30 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:31 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:31 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:32 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:32 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:33 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:33 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:34 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:34 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:35 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:35 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:36 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:36 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:37 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:37 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:38 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:38 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:39 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:39 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:40 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:40 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:41 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:41 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:42 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:42 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:43 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:43 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:44 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:44 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:45 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:45 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:46 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:46 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:47 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:47 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:48 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:48 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:49 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:49 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:50 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:50 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:51 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:51 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:52 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:52 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:53 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:53 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:54 141] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:54 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:55 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:55 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:56 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:56 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:57 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:57 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:58 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:58 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:59 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:55:59 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:00 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:00 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:01 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:01 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:02 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:02 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:03 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:03 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:04 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:04 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:05 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:05 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:06 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:06 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:07 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:07 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:08 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:08 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:09 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:09 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:10 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:10 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:11 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:11 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:12 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:12 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:13 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:13 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:14 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:14 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:15 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:15 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:16 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:16 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:17 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:17 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:18 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:18 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:19 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:19 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:20 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:20 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:21 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:21 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:22 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:22 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:23 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:23 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:24 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:24 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:25 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:25 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:26 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:26 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:27 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:27 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:28 139] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:28 139] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:29 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:29 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:30 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:30 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:31 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:31 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:32 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:32 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:33 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:33 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:34 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:34 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:35 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:35 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:36 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:36 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:37 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:37 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:38 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:38 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:39 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:39 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:40 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:40 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:41 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:41 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:42 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:42 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:43 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:43 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:44 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:44 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:45 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:45 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:46 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:46 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:47 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:47 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:48 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:48 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:49 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:49 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:50 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:50 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:51 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:51 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:52 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:52 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:53 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:53 141] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:54 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:54 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:55 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:55 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:56 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:56 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:57 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:57 140] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:58 140] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:58 140] - Account:equipment[1]
+    INFO    baseapp01 10103 7001  [2018-05-17 22:56:58 755] - ServerApp::onChannelTimeOut: Channel 10.1.9.9:26886/0/0/0 timed out.
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:56:58 755] - Account::onClientDeath: 3.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:56:58 755] - Account[3].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:56:58 756] - Account::~Account(): 3
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:57:17 540] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:57:17 839] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:26909/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:57:17 840] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:26909/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 22:57:17 940] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:26909/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:57:18 040] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:57:18 040] - EntityApp::createEntity: new Account 4
+  S_INFO    baseapp01 10103 7001  [2018-05-17 22:57:18 040] - account[4] entities enable. entityCall:Client id:4, utype:1, component=client[0], addr: 10.1.9.9:26909.
+    INFO    baseapp01 10103 7001  [2018-05-17 22:57:18 040] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556564093296640000, entityID=4, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:23 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:23 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:24 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:24 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:25 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:25 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:26 041] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:26 041] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:27 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:27 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:28 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:28 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:29 041] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:29 041] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:30 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:30 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:31 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:31 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:32 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:32 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:33 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:33 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:34 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:34 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:35 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:35 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:36 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:36 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:37 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:37 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:38 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:38 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:39 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:39 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:40 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:40 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:41 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:41 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:42 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:42 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:43 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:43 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:44 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:44 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:45 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:45 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:46 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:46 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:47 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:47 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:48 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:48 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:49 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:49 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:50 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:50 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:51 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:51 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:52 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:52 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:53 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:53 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:54 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:54 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:55 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:55 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:56 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:56 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:57 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:57 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:58 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:58 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:59 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:57:59 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:00 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:00 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:01 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:01 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:02 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:02 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:03 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:03 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:04 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:04 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:05 041] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:05 041] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:06 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:06 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:07 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:07 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:08 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:08 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:09 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:09 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:10 040] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:10 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:11 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:11 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:12 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:12 040] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:13 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:13 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:14 039] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:14 039] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:15 041] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:15 041] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 22:58:15 762] - TCPPacketReceiver::processPendingEvents(10.1.9.9:26909): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:58:15 762] - Account::onClientDeath: 4.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 22:58:15 762] - Account[4].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 22:58:15 762] - Account::~Account(): 4
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:01:34 439] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:01:34 638] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:26976/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:01:34 639] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:26976/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:01:34 739] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:26976/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:01:34 838] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:01:34 839] - EntityApp::createEntity: new Account 5
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:01:34 839] - account[5] entities enable. entityCall:Client id:5, utype:1, component=client[0], addr: 10.1.9.9:26976.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:01:34 839] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556565192808267776, entityID=5, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:39 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:39 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:40 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:40 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:41 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:41 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:42 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:42 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:43 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:43 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:44 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:44 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:45 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:45 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:46 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:46 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:47 840] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:47 840] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:48 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:48 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:49 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:49 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:50 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:50 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:51 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:51 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:52 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:52 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:53 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:53 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:54 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:54 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:55 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:55 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:56 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:56 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:57 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:57 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:58 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:58 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:59 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:01:59 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:00 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:00 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:01 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:01 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:02 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:02 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:03 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:03 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:04 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:04 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:05 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:05 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:06 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:06 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:07 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:07 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:08 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:08 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:09 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:09 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:10 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:10 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:11 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:11 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:12 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:12 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:13 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:13 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:14 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:14 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:15 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:15 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:16 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:16 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:17 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:17 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:18 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:18 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:19 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:19 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:20 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:20 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:21 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:21 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:22 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:22 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:23 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:23 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:24 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:24 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:25 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:25 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:26 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:26 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:27 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:27 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:28 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:28 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:29 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:29 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:30 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:30 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:31 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:31 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:32 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:32 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:33 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:33 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:34 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:34 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:35 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:35 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:36 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:36 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:37 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:37 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:38 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:38 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:39 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:39 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:40 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:40 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:41 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:41 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:42 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:42 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:43 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:43 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:44 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:44 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:45 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:45 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:46 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:46 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:47 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:47 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:48 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:48 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:49 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:49 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:50 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:50 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:51 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:51 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:52 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:52 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:53 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:53 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:54 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:54 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:55 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:55 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:56 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:56 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:57 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:57 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:58 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:58 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:59 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:02:59 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:00 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:00 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:01 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:01 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:02 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:02 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:03 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:03 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:04 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:04 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:05 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:05 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:06 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:06 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:07 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:07 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:08 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:08 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:09 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:09 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:10 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:10 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:11 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:11 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:12 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:12 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:13 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:13 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:14 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:14 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:15 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:15 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:16 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:16 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:17 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:17 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:18 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:18 840] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:19 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:19 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:20 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:20 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:21 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:21 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:22 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:22 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:23 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:23 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:24 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:24 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:25 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:25 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:26 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:26 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:27 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:27 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:28 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:28 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:29 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:29 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:30 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:30 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:31 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:31 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:32 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:32 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:33 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:33 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:34 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:34 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:35 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:35 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:36 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:36 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:37 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:37 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:38 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:38 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:39 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:39 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:40 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:40 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:41 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:41 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:42 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:42 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:43 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:43 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:44 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:44 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:45 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:45 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:46 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:46 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:47 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:47 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:48 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:48 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:49 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:49 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:50 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:50 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:51 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:51 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:52 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:52 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:53 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:53 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:54 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:54 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:55 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:55 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:56 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:56 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:57 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:57 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:58 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:58 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:59 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:03:59 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:00 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:00 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:01 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:01 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:02 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:02 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:03 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:03 838] - Account:equipment[1]
+    INFO    baseapp01 10103 7001  [2018-05-17 23:04:04 480] - ServerApp::onChannelTimeOut: Channel 10.1.9.9:26976/0/0/0 timed out.
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:04:04 480] - Account::onClientDeath: 5.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:04 480] - Account[5].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:04:04 480] - Account::~Account(): 5
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:04:19 338] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:04:19 638] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27001/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:04:19 638] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27001/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:04:19 738] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27001/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:04:19 838] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:04:19 838] - EntityApp::createEntity: new Account 6
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:04:19 838] - account[6] entities enable. entityCall:Client id:6, utype:1, component=client[0], addr: 10.1.9.9:27001.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:04:19 838] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556565901477871616, entityID=6, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:24 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:24 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:25 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:25 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:26 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:26 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:27 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:27 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:28 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:28 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:29 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:29 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:30 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:30 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:31 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:31 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:32 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:32 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:33 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:33 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:34 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:34 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:35 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:35 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:36 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:36 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:37 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:37 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:38 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:38 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:39 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:39 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:40 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:40 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:41 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:41 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:42 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:42 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:43 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:43 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:44 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:44 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:45 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:45 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:46 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:46 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:47 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:47 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:48 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:48 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:49 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:49 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:50 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:50 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:51 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:51 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:52 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:52 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:53 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:53 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:54 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:54 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:55 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:55 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:56 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:56 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:57 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:57 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:58 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:58 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:59 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:04:59 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:00 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:00 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:01 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:01 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:02 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:02 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:03 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:03 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:04 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:04 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:05 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:05 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:06 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:06 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:07 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:07 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:08 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:08 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:09 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:09 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:10 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:10 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:11 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:11 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:12 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:12 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:13 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:13 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:14 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:14 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:15 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:15 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:16 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:16 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:17 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:17 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:18 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:18 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:19 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:19 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:20 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:20 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:21 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:21 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:22 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:22 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:23 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:23 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:24 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:24 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:25 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:25 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:26 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:26 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:27 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:27 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:28 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:28 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:29 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:29 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:30 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:30 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:31 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:31 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:32 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:32 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:33 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:33 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:34 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:34 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:35 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:35 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:36 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:36 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:37 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:37 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:38 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:38 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:39 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:39 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:40 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:40 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:41 840] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:41 840] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:42 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:42 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:43 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:43 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:44 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:44 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:45 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:45 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:46 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:46 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:47 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:47 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:48 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:48 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:49 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:49 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:50 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:50 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:51 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:51 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:52 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:52 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:53 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:53 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:54 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:54 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:55 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:55 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:56 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:56 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:57 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:57 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:58 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:58 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:59 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:05:59 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:00 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:00 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:01 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:01 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:02 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:02 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:03 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:03 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:04 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:04 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:05 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:05 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:06 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:06 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:07 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:07 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:08 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:08 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:09 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:09 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:10 839] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:10 839] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:11 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:11 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:12 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:12 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:13 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:13 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:14 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:14 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:15 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:15 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:16 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:16 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:17 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:17 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:18 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:18 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:19 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:19 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:20 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:20 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:21 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:21 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:22 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:22 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:23 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:23 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:24 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:24 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:25 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:25 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:26 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:26 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:27 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:27 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:28 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:28 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:29 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:29 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:30 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:30 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:31 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:31 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:32 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:32 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:33 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:33 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:34 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:34 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:35 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:35 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:36 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:36 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:37 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:37 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:38 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:38 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:39 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:39 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:40 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:40 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:41 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:41 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:42 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:42 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:43 838] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:43 838] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:44 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:44 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:45 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:45 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:46 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:46 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:47 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:47 837] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:48 837] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:48 837] - Account:equipment[1]
+    INFO    baseapp01 10103 7001  [2018-05-17 23:06:49 456] - ServerApp::onChannelTimeOut: Channel 10.1.9.9:27001/0/0/0 timed out.
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:06:49 457] - Account::onClientDeath: 6.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:06:49 457] - Account[6].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:06:49 458] - Account::~Account(): 6
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:16:21 535] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:16:21 834] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27290/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:16:21 835] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27290/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:16:22 035] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27290/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:16:22 135] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:16:22 135] - EntityApp::createEntity: new Account 7
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:16:22 135] - account[7] entities enable. entityCall:Client id:7, utype:1, component=client[0], addr: 10.1.9.9:27290.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:16:22 135] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556569006739226624, entityID=7, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:27 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:27 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:28 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:28 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:29 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:29 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:30 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:30 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:31 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:31 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:32 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:32 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:33 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:33 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:34 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:34 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:35 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:35 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:36 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:36 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:37 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:37 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:38 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:38 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:39 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:39 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:40 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:40 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:41 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:41 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:42 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:42 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:43 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:43 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:44 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:44 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:45 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:45 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:46 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:46 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:47 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:47 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:48 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:48 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:49 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:49 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:50 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:50 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:51 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:51 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:52 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:52 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:53 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:53 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:54 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:54 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:55 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:55 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:56 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:56 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:57 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:57 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:58 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:58 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:59 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:16:59 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:00 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:00 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:01 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:01 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:02 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:02 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:03 136] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:03 137] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:04 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:04 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:05 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:05 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:06 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:06 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:07 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:07 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:08 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:08 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:09 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:09 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:10 137] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:10 137] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:11 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:11 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:12 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:12 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:13 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:13 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:14 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:14 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:15 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:15 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:16 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:16 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:17 136] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:17 136] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:18 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:18 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:19 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:19 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:20 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:20 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:21 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:21 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:22 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:22 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:23 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:23 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:24 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:24 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:25 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:25 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:26 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:26 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:27 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:27 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:28 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:28 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:29 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:29 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:30 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:30 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:31 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:31 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:32 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:32 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:33 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:33 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:34 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:34 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:35 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:35 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:36 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:36 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:37 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:37 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:38 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:38 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:39 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:39 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:40 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:40 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:41 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:41 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:42 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:42 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:43 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:43 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:44 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:44 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:45 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:45 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:46 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:46 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:47 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:47 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:48 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:48 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:49 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:49 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:50 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:50 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:51 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:51 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:52 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:52 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:53 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:53 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:54 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:54 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:55 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:55 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:56 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:56 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:57 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:57 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:58 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:58 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:59 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:17:59 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:00 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:00 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:01 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:01 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:02 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:02 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:03 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:03 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:04 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:04 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:05 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:05 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:06 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:06 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:07 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:07 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:08 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:08 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:09 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:09 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:10 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:10 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:11 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:11 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:12 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:12 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:13 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:13 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:14 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:14 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:15 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:15 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:16 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:16 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:17 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:17 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:18 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:18 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:19 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:19 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:20 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:20 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:21 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:21 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:22 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:22 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:23 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:23 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:24 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:24 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:25 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:25 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:26 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:26 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:27 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:27 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:28 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:28 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:29 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:29 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:30 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:30 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:31 135] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:31 135] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:32 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:32 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:33 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:33 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:34 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:34 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:35 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:35 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:36 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:36 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:37 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:37 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:38 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:38 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:39 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:39 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:40 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:40 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:41 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:41 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:42 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:42 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:43 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:43 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:44 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:44 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:45 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:45 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:46 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:46 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:47 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:47 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:48 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:48 134] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:49 134] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:49 134] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:18:49 151] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27290): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:18:49 151] - Account::onClientDeath: 7.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:18:49 151] - Account[7].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:18:49 152] - Account::~Account(): 7
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:23:41 833] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:23:42 033] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27554/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:23:42 033] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27554/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:23:42 133] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27554/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:23:42 233] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:23:42 234] - EntityApp::createEntity: new Account 8
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:23:42 234] - account[8] entities enable. entityCall:Client id:8, utype:1, component=client[0], addr: 10.1.9.9:27554.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:23:42 234] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556570896524836864, entityID=8, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:47 234] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:47 234] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:48 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:48 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:49 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:49 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:50 232] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:50 232] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:51 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:51 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:52 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:52 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:53 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:53 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:54 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:54 233] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:55 233] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:55 233] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:23:55 654] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27554): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:23:55 654] - Account::onClientDeath: 8.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:23:55 654] - Account[8].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:23:55 654] - Account::~Account(): 8
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:26:05 532] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:26:05 732] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27574/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:26:05 732] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27574/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:26:05 832] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27574/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:26:05 932] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:26:05 932] - EntityApp::createEntity: new Account 9
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:26:05 933] - account[9] entities enable. entityCall:Client id:9, utype:1, component=client[0], addr: 10.1.9.9:27574.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:26:05 933] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556571510705160192, entityID=9, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:10 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:10 933] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:11 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:11 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:12 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:12 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:13 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:13 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:14 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:14 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:15 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:15 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:16 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:16 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:17 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:17 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:18 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:18 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:19 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:19 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:20 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:20 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:21 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:21 933] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:22 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:22 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:23 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:23 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:24 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:24 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:25 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:25 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:26 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:26 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:27 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:27 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:28 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:28 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:29 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:29 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:30 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:30 932] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:31 933] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:31 933] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:32 933] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:32 933] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:33 932] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:33 932] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:26:33 978] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27574): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:26:33 978] - Account::onClientDeath: 9.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:26:33 978] - Account[9].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:26:33 978] - Account::~Account(): 9
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:41:16 628] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:41:16 928] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27653/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:41:16 929] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27653/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:41:17 028] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27653/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:41:17 128] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:41:17 128] - EntityApp::createEntity: new Account 10
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:41:17 128] - account[10] entities enable. entityCall:Client id:10, utype:1, component=client[0], addr: 10.1.9.9:27653.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:41:17 128] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556575427715334144, entityID=10, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:22 130] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:22 130] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:23 129] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:23 129] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:24 130] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:24 130] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:25 129] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:25 129] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:26 129] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:26 129] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:27 129] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:27 129] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:28 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:28 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:29 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:29 129] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:30 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:30 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:31 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:31 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:32 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:32 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:33 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:33 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:34 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:34 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:35 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:35 128] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:36 128] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:36 128] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:41:36 176] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27653): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:41:36 176] - Account::onClientDeath: 10.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:41:36 177] - Account[10].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:41:36 177] - Account::~Account(): 10
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:43:02 428] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:43:02 628] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27664/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:43:02 628] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27664/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:43:02 728] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27664/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:43:02 828] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:43:02 828] - EntityApp::createEntity: new Account 11
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:43:02 828] - account[11] entities enable. entityCall:Client id:11, utype:1, component=client[0], addr: 10.1.9.9:27664.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:43:02 828] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556575878686900224, entityID=11, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:07 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:07 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:08 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:08 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:09 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:09 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:10 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:10 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:11 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:11 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:12 829] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:12 829] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:13 829] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:13 829] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:14 829] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:14 829] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:15 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:15 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:16 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:16 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:17 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:17 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:18 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:18 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:19 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:19 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:20 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:20 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:21 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:21 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:22 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:22 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:23 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:23 828] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:43:24 404] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27664): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:43:24 404] - Account::onClientDeath: 11.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:43:24 404] - Account[11].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:43:24 405] - Account::~Account(): 11
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:47:07 427] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:47:07 627] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27731/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:47:07 627] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27731/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:47:07 727] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27731/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:47:07 826] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:47:07 827] - EntityApp::createEntity: new Account 12
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:47:07 827] - account[12] entities enable. entityCall:Client id:12, utype:1, component=client[0], addr: 10.1.9.9:27731.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:47:07 827] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556576930953887744, entityID=12, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:12 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:12 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:13 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:13 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:14 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:14 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:15 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:15 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:16 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:16 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:17 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:17 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:18 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:18 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:19 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:19 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:20 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:20 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:21 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:21 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:22 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:22 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:23 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:23 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:24 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:24 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:25 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:25 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:26 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:26 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:27 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:27 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:28 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:28 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:29 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:29 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:30 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:30 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:31 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:31 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:32 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:32 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:33 828] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:33 828] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:34 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:34 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:35 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:35 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:36 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:36 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:37 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:37 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:38 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:38 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:39 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:39 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:40 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:40 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:41 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:41 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:42 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:42 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:43 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:43 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:44 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:44 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:45 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:45 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:46 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:46 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:47 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:47 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:48 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:48 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:49 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:49 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:50 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:50 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:51 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:51 827] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:52 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:52 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:53 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:53 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:54 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:54 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:55 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:55 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:56 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:56 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:57 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:57 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:58 827] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:58 827] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:47:59 594] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27731): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:47:59 594] - Account::onClientDeath: 12.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:47:59 594] - Account[12].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:47:59 595] - Account::~Account(): 12
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:49:16 626] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:49:16 826] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27769/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:49:16 826] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27769/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:49:16 926] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27769/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:49:17 026] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:49:17 026] - EntityApp::createEntity: new Account 13
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:49:17 027] - account[13] entities enable. entityCall:Client id:13, utype:1, component=client[0], addr: 10.1.9.9:27769.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:49:17 027] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556577489299636224, entityID=13, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:22 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:22 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:23 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:23 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:24 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:24 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:25 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:25 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:26 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:26 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:27 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:27 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:28 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:28 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:29 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:29 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:30 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:30 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:31 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:31 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:32 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:32 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:33 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:33 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:34 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:34 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:35 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:35 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:36 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:36 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:37 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:37 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:38 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:38 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:39 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:39 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:40 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:40 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:41 027] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:41 027] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:42 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:42 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:43 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:43 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:44 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:44 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:45 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:45 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:46 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:46 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:47 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:47 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:48 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:48 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:49 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:49 026] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:50 026] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:50 026] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:49:50 956] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27769): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:49:50 956] - Account::onClientDeath: 13.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:49:50 957] - Account[13].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:49:50 957] - Account::~Account(): 13
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:53:37 425] - PendingLoginMgr::add: cxx, size=1.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:53:37 625] - ServerApp::onHello: verInfo=2.0.0, scriptVerInfo=0.1.0, encryptedKey=None, addr:10.1.9.9:27813/0/0/0
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:53:37 625] - Baseapp::onHello: client is not encrypted, addr=10.1.9.9:27813/0/0/0
+    INFO    baseapp01 10103 7001  [2018-05-17 23:53:37 725] - Baseapp::loginBaseapp: new user[cxx], channel[10.1.9.9:27813/0/0/0].
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:53:37 825] - PendingLoginMgr::remove: cxx, size=0.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:53:37 825] - EntityApp::createEntity: new Account 14
+  S_INFO    baseapp01 10103 7001  [2018-05-17 23:53:37 825] - account[14] entities enable. entityCall:Client id:14, utype:1, component=client[0], addr: 10.1.9.9:27813.
+    INFO    baseapp01 10103 7001  [2018-05-17 23:53:37 825] - Baseapp::onQueryAccountCBFromDbmgr: user=cxx, uuid=6556578605991133184, entityID=14, flags=0, deadline=0.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:42 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:42 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:43 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:43 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:44 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:44 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:45 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:45 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:46 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:46 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:47 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:47 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:48 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:48 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:49 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:49 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:50 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:50 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:51 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:51 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:52 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:52 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:53 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:53 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:54 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:54 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:55 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:55 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:56 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:56 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:57 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:57 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:58 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:58 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:59 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:53:59 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:00 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:00 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:01 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:01 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:02 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:02 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:03 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:03 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:04 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:04 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:05 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:05 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:06 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:06 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:07 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:07 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:08 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:08 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:09 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:09 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:10 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:10 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:11 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:11 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:12 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:12 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:13 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:13 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:14 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:14 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:15 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:15 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:16 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:16 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:17 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:17 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:18 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:18 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:19 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:19 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:20 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:20 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:21 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:21 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:22 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:22 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:23 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:23 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:24 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:24 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:25 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:25 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:26 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:26 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:27 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:27 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:28 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:28 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:29 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:29 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:30 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:30 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:31 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:31 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:32 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:32 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:33 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:33 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:34 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:34 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:35 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:35 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:36 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:36 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:37 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:37 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:38 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:38 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:39 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:39 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:40 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:40 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:41 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:41 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:42 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:42 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:43 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:43 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:44 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:44 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:45 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:45 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:46 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:46 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:47 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:47 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:48 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:48 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:49 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:49 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:50 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:50 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:51 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:51 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:52 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:52 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:53 824] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:53 824] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:54 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:54 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:55 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:55 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:56 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:56 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:57 825] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:57 825] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:58 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:58 826] - Account:equipment[1]
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:59 826] - addEquipment mould_id:%i ower_id:%i
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:54:59 826] - Account:equipment[1]
+ WARNING    baseapp01 10103 7001  [2018-05-17 23:55:00 720] - TCPPacketReceiver::processPendingEvents(10.1.9.9:27813): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:55:00 720] - Account::onClientDeath: 14.
+   S_DBG    baseapp01 10103 7001  [2018-05-17 23:55:00 721] - Account[14].onClientDeath:
+   DEBUG    baseapp01 10103 7001  [2018-05-17 23:55:00 721] - Account::~Account(): 14

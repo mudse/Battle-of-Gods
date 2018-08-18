@@ -1,0 +1,400 @@
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 378] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 380] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 380] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 380] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 419] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:5534 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 430] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:5534, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 431] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 431] - 	internalAddr : 10.139.66.192:5534
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 431] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 470] - Components::findLogger: found logger, addr:10.139.66.192:5503
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 470] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 471] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 492] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 6560 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 492] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 492] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:19 492] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:20 029] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:41:20 029] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:27 382] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:27 470] - Components::findComponents: found dbmgr, addr:10.139.66.192:5521
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:27 470] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:27 470] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:27 471] - Components::findComponents: found dbmgr, addr:10.139.66.192:5521
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:29 473] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:29 499] - Components::findComponents: found cellappmgr, addr:10.139.66.192:5545
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:29 499] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:29 500] - Components::findComponents: found cellappmgr, addr:10.139.66.192:5545
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:31 534] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:31 554] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:31 573] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:32 194] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:5545, extaddr:nonsupport, extport:0,  from 10.139.66.192:5602/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:36 834] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:5570, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:5623/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:36 834] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:37 634] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:5552, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:5628/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:37 634] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:38 054] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:5561, extaddr:nonsupport, extport:0,  from 10.139.66.192:5634/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:38 054] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:43 554] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:41:43 554] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:42:31 566] - ServerApp::onChannelTimeOut: Channel 10.139.66.192:5545/0/0/0 timed out.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 909] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 910] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 910] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 910] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 928] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:6008 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 928] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:6008, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 928] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 929] - 	internalAddr : 10.139.66.192:6008
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 929] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 992] - Components::findLogger: found logger, addr:10.139.66.192:6000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 992] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:20 993] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:21 017] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 8248 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:21 018] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:21 019] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:21 020] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:21 760] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:43:21 760] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:29 061] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:29 082] - Components::findComponents: found dbmgr, addr:10.139.66.192:6002
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:29 082] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:29 082] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:29 083] - Components::findComponents: found dbmgr, addr:10.139.66.192:6002
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:31 102] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:31 107] - Components::findComponents: found cellappmgr, addr:10.139.66.192:6012
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:31 107] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:31 107] - Components::findComponents: found cellappmgr, addr:10.139.66.192:6012
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:33 122] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:33 141] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:33 162] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:33 602] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6012, extaddr:nonsupport, extport:0,  from 10.139.66.192:6079/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:36 882] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6022, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:6092/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:36 882] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:37 062] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6026, extaddr:nonsupport, extport:0,  from 10.139.66.192:6097/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:37 062] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:38 962] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6028, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:6105/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:38 962] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:43 942] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:43:43 942] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:44:24 782] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:44:33 155] - ServerApp::onChannelTimeOut: Channel 10.139.66.192:6012/0/0/0 timed out.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 143] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 144] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 145] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 145] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 164] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:6741 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 165] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:6741, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 165] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 165] - 	internalAddr : 10.139.66.192:6741
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:57 167] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:58 677] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 7736 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:58 678] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:58 679] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:58 679] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:46:59 576] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:46:59 577] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:06 961] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 008] - Components::findComponents: found logger, addr:10.139.66.192:6739
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 008] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 009] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 021] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 116] - Components::findComponents: found dbmgr, addr:10.139.66.192:6740
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 117] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 117] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:07 119] - Components::findComponents: found dbmgr, addr:10.139.66.192:6740
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:09 121] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:09 152] - Components::findComponents: found cellappmgr, addr:10.139.66.192:6743
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:09 152] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:09 153] - Components::findComponents: found cellappmgr, addr:10.139.66.192:6743
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:11 201] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:11 221] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:11 240] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:11 241] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6743, extaddr:nonsupport, extport:0,  from 10.139.66.192:6818/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:12 442] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6749, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:6823/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:12 442] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:13 261] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6746, extaddr:nonsupport, extport:0,  from 10.139.66.192:6829/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:13 261] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:13 641] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:6745, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:6831/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:13 641] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:18 982] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 09:47:18 982] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:47:30 681] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 09:57:52 679] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=9.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 228] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 228] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 229] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 229] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 248] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:9553 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 248] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:9553, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 249] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 249] - 	internalAddr : 10.139.66.192:9553
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:37 250] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:38 765] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 4452 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:38 765] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:38 766] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:38 766] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:39 389] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:00:39 389] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 648] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 696] - Components::findComponents: found logger, addr:10.139.66.192:9550
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 696] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 697] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 709] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 802] - Components::findComponents: found dbmgr, addr:10.139.66.192:9551
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 802] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 802] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:46 803] - Components::findComponents: found dbmgr, addr:10.139.66.192:9551
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:48 807] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:48 846] - Components::findComponents: found cellappmgr, addr:10.139.66.192:9554
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:48 846] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:48 846] - Components::findComponents: found cellappmgr, addr:10.139.66.192:9554
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:50 407] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9558, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:9624/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:50 408] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:50 888] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:50 907] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:50 927] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:51 027] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9554, extaddr:nonsupport, extport:0,  from 10.139.66.192:9629/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:52 748] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9557, extaddr:nonsupport, extport:0,  from 10.139.66.192:9639/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:52 748] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:52 828] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9555, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:9640/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:52 828] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:58 327] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:00:58 327] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:01:16 826] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 562] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 568] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 568] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 569] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 606] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:9827 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 607] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:9827, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 607] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 607] - 	internalAddr : 10.139.66.192:9827
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:48 607] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:50 118] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 11960 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:50 119] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:50 120] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:50 120] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:50 878] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:01:50 879] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 163] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 182] - Components::findComponents: found logger, addr:10.139.66.192:9825
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 182] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 183] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 195] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 287] - Components::findComponents: found dbmgr, addr:10.139.66.192:9826
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 287] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 287] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:01:58 288] - Components::findComponents: found dbmgr, addr:10.139.66.192:9826
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:00 302] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:00 322] - Components::findComponents: found cellappmgr, addr:10.139.66.192:9829
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:00 322] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:00 322] - Components::findComponents: found cellappmgr, addr:10.139.66.192:9829
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 182] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9833, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:9903/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 182] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 363] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 381] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 402] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:02 502] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9829, extaddr:nonsupport, extport:0,  from 10.139.66.192:9908/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:04 543] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9832, extaddr:nonsupport, extport:0,  from 10.139.66.192:9919/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:04 543] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:05 922] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:9831, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:9925/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:05 922] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:10 942] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:02:10 942] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:02:31 882] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:02 393] - ServerApp::onChannelTimeOut: Channel 10.139.66.192:9829/0/0/0 timed out.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 052] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 052] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 052] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 053] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 072] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:10174 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 073] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:10174, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 073] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 073] - 	internalAddr : 10.139.66.192:10174
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:18 073] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:19 583] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 11580 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:19 583] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:19 584] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:19 584] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:20 254] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:03:20 254] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 525] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 607] - Components::findComponents: found logger, addr:10.139.66.192:10172
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 608] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 608] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 621] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 715] - Components::findComponents: found dbmgr, addr:10.139.66.192:10173
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 715] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 715] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:27 716] - Components::findComponents: found dbmgr, addr:10.139.66.192:10173
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:29 725] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:29 763] - Components::findComponents: found cellappmgr, addr:10.139.66.192:10176
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:29 763] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:29 763] - Components::findComponents: found cellappmgr, addr:10.139.66.192:10176
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:30 765] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10176, extaddr:nonsupport, extport:0,  from 10.139.66.192:10244/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:31 305] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10179, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:10249/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:31 305] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:31 804] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:31 824] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:31 845] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:33 685] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10178, extaddr:nonsupport, extport:0,  from 10.139.66.192:10263/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:33 685] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:34 445] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10177, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:10267/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:34 445] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:39 365] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:03:39 365] - Baseappmgr::onBaseappInitProgress: all completed!
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:04:35 584] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 579] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 580] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 581] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 581] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 605] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:10652 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 606] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:10652, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 606] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 606] - 	internalAddr : 10.139.66.192:10652
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:27 606] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:29 113] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 12780 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:29 114] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:29 114] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:29 114] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:29 691] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:05:29 692] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 056] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 142] - Components::findComponents: found logger, addr:10.139.66.192:10649
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 142] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 142] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 155] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 247] - Components::findComponents: found dbmgr, addr:10.139.66.192:10650
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 247] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 247] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:37 248] - Components::findComponents: found dbmgr, addr:10.139.66.192:10650
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:39 255] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:39 306] - Components::findComponents: found cellappmgr, addr:10.139.66.192:10654
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:39 306] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:39 306] - Components::findComponents: found cellappmgr, addr:10.139.66.192:10654
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 175] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10657, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:10722/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 175] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 355] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 375] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 394] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:41 596] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10654, extaddr:nonsupport, extport:0,  from 10.139.66.192:10726/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:43 555] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10655, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:10736/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:43 555] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:44 475] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:10656, extaddr:nonsupport, extport:0,  from 10.139.66.192:10744/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:44 475] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:50 276] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:05:50 276] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:06:41 389] - ServerApp::onChannelTimeOut: Channel 10.139.66.192:10654/0/0/0 timed out.
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:07:59 752] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 466] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 467] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 467] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 467] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 511] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.66.192 ( 10.139.66.192:12097 )
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 511] - NetworkInterface::initialize(INTERNAL): address 10.139.66.192:12097, SOMAXCONN=5.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 511] - server-configs:
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 512] - 	internalAddr : 10.139.66.192:12097
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:09 512] - 	componentID : 5000
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:11 069] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: EE09E8FDB2CCFCF3A31D35776E8954CE. Config: Debug X86. Built: 16:27:27 Apr 30 2018. AppID: 5000. UID: 10103. PID: 13980 ----
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:11 070] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:11 070] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:11 071] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:11 877] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:12:11 878] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 253] - Components::findComponents: find logger(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 331] - Components::findComponents: found logger, addr:10.139.66.192:12093
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 331] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 332] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 344] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 436] - Components::findComponents: found dbmgr, addr:10.139.66.192:12096
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 437] - Components::addComponent: reset orderLog, uid=10103!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 437] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:19 437] - Components::findComponents: found dbmgr, addr:10.139.66.192:12096
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:21 453] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:21 515] - Components::findComponents: found cellappmgr, addr:10.139.66.192:12100
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:21 515] - Components::addComponent[cellappmgr], uid=10103, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:21 515] - Components::findComponents: found cellappmgr, addr:10.139.66.192:12100
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:22 652] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:12100, extaddr:nonsupport, extport:0,  from 10.139.66.192:12179/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:23 573] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:23 594] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:23 613] - Components::process(): Found all the components!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:23 693] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:12108, extaddr:10.139.66.192, extport:20013,  from 10.139.66.192:12186/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:23 693] - Components::addComponent[loginapp], uid=10103, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:25 913] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:12101, extaddr:10.139.66.192, extport:20015,  from 10.139.66.192:12194/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:25 913] - Components::addComponent[baseapp], uid=10103, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:27 033] - ServerApp::onRegisterNewApp: uid:10103, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.66.192, intport:12104, extaddr:nonsupport, extport:0,  from 10.139.66.192:12204/0/0/0.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:27 033] - Components::addComponent[cellapp], uid=10103, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:32 372] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:12:32 372] - Baseappmgr::onBaseappInitProgress: all completed!
+    INFO baseappmgr-1 10103 5000  [2018-08-06 10:13:22 642] - ServerApp::onChannelTimeOut: Channel 10.139.66.192:12179/0/0/0 timed out.
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:13:50 913] - Baseappmgr::registerPendingAccountToBaseapp:cxx. allocBaseapp=7001, numEntities=8.
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:16:14 912] - Baseappmgr::registerPendingAccountToBaseappAddr:cxx, componentID=7001, entityID=10.
+   DEBUG baseappmgr-1 10103 5000  [2018-08-06 10:17:17 812] - Baseappmgr::registerPendingAccountToBaseappAddr:cxx, componentID=7001, entityID=10.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 806] - -----------------------------------------------------------------------------------------
+
+
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 816] - Resmgr::initialize: KBE_ROOT=D:/kbe/kbengine-2.0.0-preview3/
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 816] - Resmgr::initialize: KBE_RES_PATH=D:/kbe/kbengine-2.0.0-preview3/kbe/res/;D:/kbe/kbengine-2.0.0-preview3/assets_Battle of Gods/;D:/kbe/kbengine-2.0.0-preview3/assets_Battle of Gods/scripts/;D:/kbe/kbengine-2.0.0-preview3/assets_Battle of Gods/res/
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 817] - Resmgr::initialize: KBE_BIN_PATH=D:/kbe/kbengine-2.0.0-preview3/kbe/bin/server/
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 825] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.139.89.70 ( 10.139.89.70:3437 )
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 825] - NetworkInterface::initialize(INTERNAL): address 10.139.89.70:3437, SOMAXCONN=5.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 825] - server-configs:
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 825] - 	internalAddr : 10.139.89.70:3437
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:16 825] - 	componentID : 5000
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 258] - Components::findLogger: found logger, addr:10.139.89.70:3433
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 258] - Components::addComponent: reset orderLog, uid=21326!
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 259] - Components::addComponent[logger], uid=21326, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 268] - ---- baseappmgr Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: 72FB668E7BA6C451877CF2024609F018. Config: Debug X86. Built: 23:21:09 May 26 2018. AppID: 5000. UID: 21326. PID: 11568 ----
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 269] - Server : Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz with 2097151kB RAM
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 269] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 270] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:17 894] - ---- baseappmgr is running ----
+   DEBUG baseappmgr-1 21326 5000  [2018-08-06 10:30:17 917] - Components::process(): Request for the process of identity...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:25 271] - Components::findComponents: find dbmgr(1)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:27 291] - Components::findComponents: find dbmgr(2)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:29 311] - Components::findComponents: find dbmgr(3)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:31 330] - Components::findComponents: find dbmgr(4)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:33 351] - Components::findComponents: find dbmgr(5)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:35 411] - Components::findComponents: find dbmgr(6)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:37 470] - Components::findComponents: find dbmgr(7)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:39 510] - Components::findComponents: find dbmgr(8)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:41 530] - Components::findComponents: find dbmgr(9)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:43 551] - Components::findComponents: find dbmgr(10)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:45 570] - Components::findComponents: find dbmgr(11)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:45 589] - Components::findComponents: found dbmgr, addr:10.139.89.70:3435
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:45 589] - Components::addComponent: reset orderLog, uid=21326!
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:45 589] - Components::addComponent[dbmgr], uid=21326, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:45 590] - Components::findComponents: found dbmgr, addr:10.139.89.70:3435
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:47 590] - Components::findComponents: find cellappmgr(1)...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:47 625] - Components::findComponents: found cellappmgr, addr:10.139.89.70:3441
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:47 625] - Components::addComponent[cellappmgr], uid=21326, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:47 626] - Components::findComponents: found cellappmgr, addr:10.139.89.70:3441
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 071] - ServerApp::onRegisterNewApp: uid:21326, username:, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:10.139.89.70, intport:3449, extaddr:10.139.89.70, extport:20013,  from 10.139.89.70:3472/0/0/0.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 071] - Components::addComponent[loginapp], uid=21326, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 570] - ServerApp::onRegisterNewApp: uid:21326, username:, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:10.139.89.70, intport:3441, extaddr:nonsupport, extport:0,  from 10.139.89.70:3476/0/0/0.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 650] - Components::findComponents: register self to dbmgr...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 670] - Components::findComponents: register self to cellappmgr...
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:49 690] - Components::process(): Found all the components!
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:51 930] - ServerApp::onRegisterNewApp: uid:21326, username:, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:10.139.89.70, intport:3446, extaddr:nonsupport, extport:0,  from 10.139.89.70:3487/0/0/0.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:51 930] - Components::addComponent[cellapp], uid=21326, componentID=8001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:52 751] - ServerApp::onRegisterNewApp: uid:21326, username:, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:10.139.89.70, intport:3444, extaddr:10.139.89.70, extport:20015,  from 10.139.89.70:3493/0/0/0.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:52 751] - Components::addComponent[baseapp], uid=21326, componentID=7001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:58 091] - Baseappmgr::onBaseappInitProgress: cid=7001, progress=1.
+    INFO baseappmgr-1 21326 5000  [2018-08-06 10:30:58 091] - Baseappmgr::onBaseappInitProgress: all completed!

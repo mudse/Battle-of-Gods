@@ -1,0 +1,820 @@
+  INFO root [2018-08-02 09:53:39,736] - 
+  INFO root [2018-08-02 09:53:39,737] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 09:53:39,738] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 09:53:39,739] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 09:53:39,739] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 09:53:39,749] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 09:53:39,750] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 09:53:39,764] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:65255 )
+  INFO root [2018-08-02 09:53:39,764] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:65255, SOMAXCONN=128.
+  INFO root [2018-08-02 09:53:39,764] - server-configs:
+  INFO root [2018-08-02 09:53:39,765] - 	internalAddr : 192.168.1.103:65255
+  INFO root [2018-08-02 09:53:39,765] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 09:53:39,765] - 	componentID : 9000
+  INFO root [2018-08-02 09:53:40,079] - Components::findLogger: found logger, addr:192.168.1.103:65230
+  INFO root [2018-08-02 09:53:40,079] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 09:53:40,080] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 09:53:40,097] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 11148 ----
+  INFO root [2018-08-02 09:53:40,098] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 09:53:40,099] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 09:53:40,099] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 09:53:40,268] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 09:53:40,269] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 09:53:40,270] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 09:53:40,275] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 09:53:40,276] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 09:53:40,276] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 09:53:40,277] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 09:53:40,350] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 09:53:40,411] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 09:53:40,412] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 09:53:40,435] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 09:53:40,436] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 09:53:40,971] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 09:53:40,972] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 09:53:47,231] - Forwarding logs to logger[192.168.1.103:65230/0/0/0]...
+ ERROR root [2018-08-02 10:00:39,454] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:00:39,454] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:00:39,454] - ==> [2018-08-02 10:00:39 459] TCPPacketReceiver::processPendingEvents(192.168.1.103:65230): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:00:39,454] - ==> [2018-08-02 10:00:39 459] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:00:39,574] - TCPPacketReceiver::processPendingEvents(192.168.1.103:65234): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:00:39,574] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:00:39,574] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:00:39,578] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:00:39,578] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:00:39,578] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:00:39,578] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:00:39,595] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:00:39,595] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:00:39,904] - ThreadPool::destroy(): waiting for thread(2)[0x2556890,0x2556ea8,], try=1
+  INFO root [2018-08-02 10:00:42,318] - 
+  INFO root [2018-08-02 10:00:42,318] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:00:42,318] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:00:42,318] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:00:42,318] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:00:42,325] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:00:42,325] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:00:42,337] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:65393 )
+  INFO root [2018-08-02 10:00:42,337] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:65393, SOMAXCONN=128.
+  INFO root [2018-08-02 10:00:42,337] - server-configs:
+  INFO root [2018-08-02 10:00:42,337] - 	internalAddr : 192.168.1.103:65393
+  INFO root [2018-08-02 10:00:42,337] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:00:42,337] - 	componentID : 9000
+  INFO root [2018-08-02 10:00:42,528] - Components::findLogger: found logger, addr:192.168.1.103:65385
+  INFO root [2018-08-02 10:00:42,528] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:00:42,528] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:00:42,544] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 10328 ----
+  INFO root [2018-08-02 10:00:42,544] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:00:42,544] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:00:42,544] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:00:42,705] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:00:42,705] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:00:42,705] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:00:42,708] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:00:42,708] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:00:42,708] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:00:42,708] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:00:42,755] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:00:42,808] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:00:42,808] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:00:42,814] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:00:42,814] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:00:43,339] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:00:43,339] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:00:49,725] - Forwarding logs to logger[192.168.1.103:65385/0/0/0]...
+ ERROR root [2018-08-02 10:02:19,305] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:02:19,307] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:02:19,307] - ==> [2018-08-02 10:02:19 303] TCPPacketReceiver::processPendingEvents(192.168.1.103:65385): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:02:19,307] - ==> [2018-08-02 10:02:19 305] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:02:19,424] - TCPPacketReceiver::processPendingEvents(192.168.1.103:65386): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:02:19,424] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:02:19,424] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:02:19,434] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:02:19,434] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:02:19,434] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:02:19,434] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:02:19,464] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:02:19,464] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:02:19,774] - ThreadPool::destroy(): waiting for thread(2)[0x23799e8,0x2379160,], try=1
+  INFO root [2018-08-02 10:02:21,905] - 
+  INFO root [2018-08-02 10:02:21,905] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:02:21,905] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:02:21,905] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:02:21,905] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:02:21,915] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:02:21,915] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:02:21,925] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:65471 )
+  INFO root [2018-08-02 10:02:21,925] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:65471, SOMAXCONN=128.
+  INFO root [2018-08-02 10:02:21,925] - server-configs:
+  INFO root [2018-08-02 10:02:21,925] - 	internalAddr : 192.168.1.103:65471
+  INFO root [2018-08-02 10:02:21,925] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:02:21,925] - 	componentID : 9000
+  INFO root [2018-08-02 10:02:22,136] - Components::findLogger: found logger, addr:192.168.1.103:65465
+  INFO root [2018-08-02 10:02:22,136] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:02:22,136] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:02:22,156] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 768 ----
+  INFO root [2018-08-02 10:02:22,156] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:02:22,156] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:02:22,156] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:02:22,312] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:02:22,312] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:02:22,312] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:02:22,321] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:02:22,321] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:02:22,321] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:02:22,321] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:02:22,373] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:02:22,427] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:02:22,427] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:02:22,427] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:02:22,427] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:02:22,916] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:02:22,916] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:02:29,245] - Forwarding logs to logger[192.168.1.103:65465/0/0/0]...
+ ERROR root [2018-08-02 10:03:34,241] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:03:34,244] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:03:34,245] - ==> [2018-08-02 10:03:34 241] TCPPacketReceiver::processPendingEvents(192.168.1.103:65465): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:03:34,246] - ==> [2018-08-02 10:03:34 242] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:03:34,358] - TCPPacketReceiver::processPendingEvents(192.168.1.103:65466): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:03:34,362] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:03:34,369] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:03:34,371] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:03:34,371] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:03:34,371] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:03:34,372] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:03:34,372] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:03:34,372] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:03:34,372] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:03:34,372] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:03:34,373] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:03:34,373] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:03:34,373] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:03:34,397] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:03:34,397] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:03:34,698] - ThreadPool::destroy(): waiting for thread(2)[0x24ea680,0x24eac98,], try=1
+  INFO root [2018-08-02 10:03:36,904] - 
+  INFO root [2018-08-02 10:03:36,904] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:03:36,906] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:03:36,906] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:03:36,906] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:03:36,912] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:03:36,912] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:03:36,924] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:65529 )
+  INFO root [2018-08-02 10:03:36,925] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:65529, SOMAXCONN=128.
+  INFO root [2018-08-02 10:03:36,925] - server-configs:
+  INFO root [2018-08-02 10:03:36,925] - 	internalAddr : 192.168.1.103:65529
+  INFO root [2018-08-02 10:03:36,925] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:03:36,926] - 	componentID : 9000
+  INFO root [2018-08-02 10:03:37,137] - Components::findLogger: found logger, addr:192.168.1.103:65522
+  INFO root [2018-08-02 10:03:37,137] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:03:37,137] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:03:37,150] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 7252 ----
+  INFO root [2018-08-02 10:03:37,151] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:03:37,151] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:03:37,152] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:03:37,297] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:03:37,297] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:03:37,298] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:03:37,301] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:03:37,302] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:03:37,302] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:03:37,303] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:03:37,348] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:03:37,397] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:03:37,398] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:03:37,400] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:03:37,400] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:03:37,853] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:03:37,854] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:03:44,102] - Forwarding logs to logger[192.168.1.103:65522/0/0/0]...
+ ERROR root [2018-08-02 10:10:10,964] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:10:10,964] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:10:10,964] - ==> [2018-08-02 10:10:10 970] TCPPacketReceiver::processPendingEvents(192.168.1.103:65522): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:10:10,964] - ==> [2018-08-02 10:10:10 971] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:10:11,094] - TCPPacketReceiver::processPendingEvents(192.168.1.103:65523): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:10:11,094] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:10:11,094] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:10:11,094] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:10:11,094] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:10:11,104] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:10:11,104] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:10:11,124] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:10:11,124] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:10:11,434] - ThreadPool::destroy(): waiting for thread(2)[0x1fb8d18,0x1fb8838,], try=1
+  INFO root [2018-08-02 10:10:13,617] - 
+  INFO root [2018-08-02 10:10:13,617] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:10:13,617] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:10:13,624] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:10:13,624] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:10:13,627] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:10:13,634] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:10:13,654] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:1265 )
+  INFO root [2018-08-02 10:10:13,654] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:1265, SOMAXCONN=128.
+  INFO root [2018-08-02 10:10:13,654] - server-configs:
+  INFO root [2018-08-02 10:10:13,654] - 	internalAddr : 192.168.1.103:1265
+  INFO root [2018-08-02 10:10:13,654] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:10:13,654] - 	componentID : 9000
+  INFO root [2018-08-02 10:10:13,874] - Components::findLogger: found logger, addr:192.168.1.103:1259
+  INFO root [2018-08-02 10:10:13,874] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:10:13,874] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:10:13,888] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 15620 ----
+  INFO root [2018-08-02 10:10:13,894] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:10:13,894] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:10:13,894] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:10:14,044] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:10:14,054] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:10:14,104] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:10:14,144] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:10:14,154] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:10:14,157] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:10:14,157] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:10:14,626] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:10:14,626] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:10:21,017] - Forwarding logs to logger[192.168.1.103:1259/0/0/0]...
+ ERROR root [2018-08-02 10:49:20,772] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:49:20,772] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:49:20,772] - ==> [2018-08-02 10:49:20 776] TCPPacketReceiver::processPendingEvents(192.168.1.103:1259): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:49:20,772] - ==> [2018-08-02 10:49:20 777] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:49:20,891] - TCPPacketReceiver::processPendingEvents(192.168.1.103:1260): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:49:20,901] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:49:20,901] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:49:20,901] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:49:20,901] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:49:20,901] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:49:20,901] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:49:20,924] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:49:20,924] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:49:21,241] - ThreadPool::destroy(): waiting for thread(2)[0x2564e8,0x256620,], try=1
+  INFO root [2018-08-02 10:49:24,991] - 
+  INFO root [2018-08-02 10:49:24,991] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:49:24,991] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:49:24,991] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:49:24,991] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:49:25,001] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:49:25,001] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:49:25,011] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2258 )
+  INFO root [2018-08-02 10:49:25,011] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2258, SOMAXCONN=128.
+  INFO root [2018-08-02 10:49:25,011] - server-configs:
+  INFO root [2018-08-02 10:49:25,011] - 	internalAddr : 192.168.1.103:2258
+  INFO root [2018-08-02 10:49:25,011] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:49:25,011] - 	componentID : 9000
+  INFO root [2018-08-02 10:49:25,265] - Components::findLogger: found logger, addr:192.168.1.103:2246
+  INFO root [2018-08-02 10:49:25,265] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:49:25,265] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:49:25,285] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 1624 ----
+  INFO root [2018-08-02 10:49:25,285] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:49:25,285] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:49:25,285] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:49:25,435] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:49:25,435] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:49:25,435] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:49:25,445] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:49:25,445] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:49:25,445] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:49:25,445] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:49:25,504] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:49:25,561] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:49:25,561] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:49:25,565] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:49:25,565] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:49:26,193] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:49:26,194] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:49:32,532] - Forwarding logs to logger[192.168.1.103:2246/0/0/0]...
+ ERROR root [2018-08-02 10:49:51,443] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:49:51,443] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:49:51,443] - ==> [2018-08-02 10:49:51 442] TCPPacketReceiver::processPendingEvents(192.168.1.103:2246): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:49:51,443] - ==> [2018-08-02 10:49:51 444] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:49:51,551] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2249): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:49:51,551] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:49:51,551] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:49:51,551] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:49:51,561] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:49:51,561] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:49:51,561] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:49:51,574] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:49:51,574] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:49:51,881] - ThreadPool::destroy(): waiting for thread(2)[0x2276ed0,0x2276f38,], try=1
+  INFO root [2018-08-02 10:49:54,041] - 
+  INFO root [2018-08-02 10:49:54,041] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:49:54,041] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:49:54,041] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:49:54,041] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:49:54,054] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:49:54,054] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:49:54,071] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2295 )
+  INFO root [2018-08-02 10:49:54,071] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2295, SOMAXCONN=128.
+  INFO root [2018-08-02 10:49:54,071] - server-configs:
+  INFO root [2018-08-02 10:49:54,071] - 	internalAddr : 192.168.1.103:2295
+  INFO root [2018-08-02 10:49:54,071] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:49:54,071] - 	componentID : 9000
+  INFO root [2018-08-02 10:49:55,744] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 9952 ----
+  INFO root [2018-08-02 10:49:55,744] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:49:55,750] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:49:55,750] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:49:55,921] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:49:55,921] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:49:55,925] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:49:55,925] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:49:55,925] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:49:55,925] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:49:55,925] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:49:55,981] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:49:56,035] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:49:56,035] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:49:56,035] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:49:56,035] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:49:56,561] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:49:56,561] - Components::process(): Request for the process of identity...
+  INFO root [2018-08-02 10:50:03,961] - Components::findComponents: find logger(1)...
+  WARN root [2018-08-02 10:50:04,551] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20787, errorno=10048
+  INFO root [2018-08-02 10:50:05,561] - Components::findComponents: find logger(2)...
+  INFO root [2018-08-02 10:50:05,665] - Components::findComponents: found logger, addr:192.168.1.103:2289
+  INFO root [2018-08-02 10:50:05,665] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:50:05,665] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:50:05,671] - Components::findComponents: find dbmgr(3)...
+  INFO root [2018-08-02 10:50:05,783] - Components::findComponents: found dbmgr, addr:192.168.1.103:2290
+  INFO root [2018-08-02 10:50:05,783] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:50:05,783] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:50:05,783] - Components::findComponents: found dbmgr, addr:192.168.1.103:2290
+  WARN root [2018-08-02 10:50:06,802] - Forwarding logs to logger[192.168.1.103:2289/0/0/0]...
+ ERROR root [2018-08-02 10:54:44,501] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:54:44,511] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:54:44,511] - ==> [2018-08-02 10:54:44 506] TCPPacketReceiver::processPendingEvents(192.168.1.103:2289): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:54:44,511] - ==> [2018-08-02 10:54:44 509] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:54:44,620] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2290): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:54:44,620] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:54:44,631] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:54:44,631] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:54:44,631] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:54:44,631] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:54:44,631] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:54:44,654] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:54:44,654] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:54:44,971] - ThreadPool::destroy(): waiting for thread(2)[0x1ea6308,0x1ea63d8,], try=1
+  INFO root [2018-08-02 10:54:47,243] - 
+  INFO root [2018-08-02 10:54:47,243] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:54:47,243] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:54:47,243] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:54:47,243] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:54:47,253] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:54:47,253] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:54:47,270] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2449 )
+  INFO root [2018-08-02 10:54:47,270] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2449, SOMAXCONN=128.
+  INFO root [2018-08-02 10:54:47,271] - server-configs:
+  INFO root [2018-08-02 10:54:47,271] - 	internalAddr : 192.168.1.103:2449
+  INFO root [2018-08-02 10:54:47,271] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:54:47,271] - 	componentID : 9000
+  INFO root [2018-08-02 10:54:47,632] - Components::findLogger: found logger, addr:192.168.1.103:2443
+  INFO root [2018-08-02 10:54:47,634] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:54:47,634] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:54:47,649] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 15748 ----
+  INFO root [2018-08-02 10:54:47,649] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:54:47,652] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:54:47,652] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:54:47,810] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:54:47,812] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:54:47,812] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:54:47,812] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:54:47,812] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:54:47,812] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:54:47,819] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:54:47,861] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:54:47,911] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:54:47,913] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:54:47,913] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:54:47,913] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:54:48,513] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:54:48,513] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:54:54,901] - Forwarding logs to logger[192.168.1.103:2443/0/0/0]...
+ ERROR root [2018-08-02 10:57:19,783] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:57:19,785] - The following logs sent to logger failed:
+  WARN root [2018-08-02 10:57:19,786] - ==> [2018-08-02 10:57:19 783] TCPPacketReceiver::processPendingEvents(192.168.1.103:2443): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:57:19,786] - ==> [2018-08-02 10:57:19 784] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 10:57:19,907] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2444): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 10:57:19,907] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 10:57:19,910] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 10:57:19,911] - onLoginAppShutDown()
+  INFO root [2018-08-02 10:57:19,911] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 10:57:19,911] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 10:57:19,913] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:57:19,913] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:57:19,913] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:57:19,913] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:57:19,913] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:57:19,914] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:57:19,914] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:57:19,914] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:57:19,938] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 10:57:19,939] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 10:57:20,240] - ThreadPool::destroy(): waiting for thread(2)[0xb616c8,0xb61388,], try=1
+  INFO root [2018-08-02 10:57:22,522] - 
+  INFO root [2018-08-02 10:57:22,522] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 10:57:22,523] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 10:57:22,523] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 10:57:22,524] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 10:57:22,529] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 10:57:22,529] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 10:57:22,545] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2545 )
+  INFO root [2018-08-02 10:57:22,546] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2545, SOMAXCONN=128.
+  INFO root [2018-08-02 10:57:22,546] - server-configs:
+  INFO root [2018-08-02 10:57:22,546] - 	internalAddr : 192.168.1.103:2545
+  INFO root [2018-08-02 10:57:22,546] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 10:57:22,546] - 	componentID : 9000
+  INFO root [2018-08-02 10:57:22,732] - Components::findLogger: found logger, addr:192.168.1.103:2539
+  INFO root [2018-08-02 10:57:22,732] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 10:57:22,732] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 10:57:28,610] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 1284 ----
+  INFO root [2018-08-02 10:57:28,610] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 10:57:28,611] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 10:57:28,611] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 10:57:28,746] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 10:57:28,747] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 10:57:28,747] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 10:57:28,752] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 10:57:28,752] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 10:57:28,752] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 10:57:28,752] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 10:57:28,796] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 10:57:28,838] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 10:57:28,838] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 10:57:28,840] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 10:57:28,841] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 10:57:29,232] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 10:57:29,233] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 10:57:35,434] - Forwarding logs to logger[192.168.1.103:2539/0/0/0]...
+ ERROR root [2018-08-02 11:01:40,864] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:01:40,866] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:01:40,867] - ==> [2018-08-02 11:01:40 859] TCPPacketReceiver::processPendingEvents(192.168.1.103:2539): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:01:40,867] - ==> [2018-08-02 11:01:40 865] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:01:40,983] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2540): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:01:40,984] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:01:40,987] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:01:40,989] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:01:40,990] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:01:40,990] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:01:40,991] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:01:40,992] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:01:40,992] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:01:40,993] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:01:40,993] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:01:40,993] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:01:40,993] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:01:40,993] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:01:41,018] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:01:41,019] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:01:41,320] - ThreadPool::destroy(): waiting for thread(2)[0x237818,0x237c90,], try=1
+  INFO root [2018-08-02 11:01:43,841] - 
+  INFO root [2018-08-02 11:01:43,841] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 11:01:43,842] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 11:01:43,843] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 11:01:43,843] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 11:01:43,850] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 11:01:43,850] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 11:01:43,865] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2661 )
+  INFO root [2018-08-02 11:01:43,865] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2661, SOMAXCONN=128.
+  INFO root [2018-08-02 11:01:43,865] - server-configs:
+  INFO root [2018-08-02 11:01:43,866] - 	internalAddr : 192.168.1.103:2661
+  INFO root [2018-08-02 11:01:43,866] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 11:01:43,866] - 	componentID : 9000
+  INFO root [2018-08-02 11:01:44,157] - Components::findLogger: found logger, addr:192.168.1.103:2654
+  INFO root [2018-08-02 11:01:44,157] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 11:01:44,158] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 11:01:44,178] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 10672 ----
+  INFO root [2018-08-02 11:01:44,179] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 11:01:44,180] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 11:01:44,181] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 11:01:44,321] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:01:44,322] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:01:44,323] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:01:44,328] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:01:44,328] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:01:44,329] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:01:44,330] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:01:44,413] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:01:44,462] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 11:01:44,462] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 11:01:44,465] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 11:01:44,466] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 11:01:44,975] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 11:01:44,976] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 11:01:51,200] - Forwarding logs to logger[192.168.1.103:2654/0/0/0]...
+ ERROR root [2018-08-02 11:07:12,698] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:07:12,699] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:07:12,700] - ==> [2018-08-02 11:07:12 696] TCPPacketReceiver::processPendingEvents(192.168.1.103:2654): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:07:12,700] - ==> [2018-08-02 11:07:12 699] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:07:12,809] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2655): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:07:12,811] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:07:12,812] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:07:12,813] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:07:12,813] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:07:12,813] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:07:12,814] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:07:12,815] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:07:12,826] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:07:12,827] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:07:13,128] - ThreadPool::destroy(): waiting for thread(2)[0x101fe8,0x102460,], try=1
+  INFO root [2018-08-02 11:07:15,361] - 
+  INFO root [2018-08-02 11:07:15,361] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 11:07:15,363] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 11:07:15,363] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 11:07:15,363] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 11:07:15,369] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 11:07:15,369] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 11:07:15,384] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2765 )
+  INFO root [2018-08-02 11:07:15,385] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2765, SOMAXCONN=128.
+  INFO root [2018-08-02 11:07:15,385] - server-configs:
+  INFO root [2018-08-02 11:07:15,385] - 	internalAddr : 192.168.1.103:2765
+  INFO root [2018-08-02 11:07:15,385] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 11:07:15,385] - 	componentID : 9000
+  INFO root [2018-08-02 11:07:15,580] - Components::findLogger: found logger, addr:192.168.1.103:2759
+  INFO root [2018-08-02 11:07:15,581] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 11:07:15,581] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 11:07:15,609] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 14172 ----
+  INFO root [2018-08-02 11:07:15,610] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 11:07:15,611] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 11:07:15,612] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 11:07:15,758] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:07:15,759] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:07:15,759] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:07:15,763] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:07:15,763] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:07:15,763] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:07:15,764] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:07:15,812] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:07:15,866] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 11:07:15,866] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 11:07:15,870] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 11:07:15,871] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 11:07:16,334] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 11:07:16,334] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 11:07:22,574] - Forwarding logs to logger[192.168.1.103:2759/0/0/0]...
+ ERROR root [2018-08-02 11:12:53,127] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:12:53,129] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:12:53,130] - ==> [2018-08-02 11:12:53 127] TCPPacketReceiver::processPendingEvents(192.168.1.103:2759): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:12:53,130] - ==> [2018-08-02 11:12:53 128] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:12:53,246] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2760): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:12:53,248] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:12:53,252] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:12:53,253] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:12:53,253] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:12:53,253] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:12:53,254] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:12:53,254] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:12:53,255] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:12:53,255] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:12:53,255] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:12:53,255] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:12:53,255] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:12:53,256] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:12:53,280] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:12:53,280] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:12:53,581] - ThreadPool::destroy(): waiting for thread(2)[0x22b9918,0x22b99e8,], try=1
+  INFO root [2018-08-02 11:12:55,960] - 
+  INFO root [2018-08-02 11:12:55,961] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 11:12:55,962] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 11:12:55,962] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 11:12:55,962] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 11:12:55,968] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 11:12:55,968] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 11:12:55,982] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2815 )
+  INFO root [2018-08-02 11:12:55,982] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2815, SOMAXCONN=128.
+  INFO root [2018-08-02 11:12:55,983] - server-configs:
+  INFO root [2018-08-02 11:12:55,983] - 	internalAddr : 192.168.1.103:2815
+  INFO root [2018-08-02 11:12:55,983] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 11:12:55,983] - 	componentID : 9000
+  INFO root [2018-08-02 11:12:56,308] - Components::findLogger: found logger, addr:192.168.1.103:2809
+  INFO root [2018-08-02 11:12:56,308] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 11:12:56,309] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 11:12:56,324] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 12480 ----
+  INFO root [2018-08-02 11:12:56,325] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 11:12:56,325] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 11:12:56,325] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 11:12:56,458] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:12:56,458] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:12:56,459] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:12:56,462] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:12:56,462] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:12:56,463] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:12:56,463] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:12:56,501] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:12:56,543] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 11:12:56,544] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 11:12:56,546] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 11:12:56,547] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 11:12:56,943] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 11:12:56,943] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 11:13:03,178] - Forwarding logs to logger[192.168.1.103:2809/0/0/0]...
+ ERROR root [2018-08-02 11:16:02,219] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:16:02,229] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:16:02,229] - ==> [2018-08-02 11:16:02 227] TCPPacketReceiver::processPendingEvents(192.168.1.103:2809): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:16:02,229] - ==> [2018-08-02 11:16:02 228] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:16:02,339] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2810): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:16:02,339] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:16:02,349] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:16:02,349] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:16:02,349] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:16:02,349] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:16:02,349] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:16:02,349] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:16:02,349] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:16:02,349] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:16:02,359] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:16:02,359] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:16:02,359] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:16:02,359] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:16:02,369] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:16:02,369] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:16:02,679] - ThreadPool::destroy(): waiting for thread(2)[0x129158,0x128c10,], try=1
+  INFO root [2018-08-02 11:16:04,903] - 
+  INFO root [2018-08-02 11:16:04,903] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 11:16:04,903] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 11:16:04,903] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 11:16:04,903] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 11:16:04,909] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 11:16:04,909] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 11:16:04,923] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2918 )
+  INFO root [2018-08-02 11:16:04,923] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2918, SOMAXCONN=128.
+  INFO root [2018-08-02 11:16:04,923] - server-configs:
+  INFO root [2018-08-02 11:16:04,923] - 	internalAddr : 192.168.1.103:2918
+  INFO root [2018-08-02 11:16:04,923] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 11:16:04,923] - 	componentID : 9000
+  INFO root [2018-08-02 11:16:05,123] - Components::findLogger: found logger, addr:192.168.1.103:2910
+  INFO root [2018-08-02 11:16:05,123] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 11:16:05,123] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 11:16:05,139] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 14820 ----
+  INFO root [2018-08-02 11:16:05,139] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 11:16:05,143] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 11:16:05,143] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 11:16:05,302] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:16:05,302] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:16:05,302] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:16:05,309] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:16:05,309] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:16:05,309] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:16:05,309] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:16:05,359] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:16:05,409] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 11:16:05,409] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 11:16:05,412] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 11:16:05,412] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 11:16:05,951] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 11:16:05,951] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 11:16:12,349] - Forwarding logs to logger[192.168.1.103:2910/0/0/0]...
+ ERROR root [2018-08-02 11:16:58,889] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:16:58,889] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:16:58,889] - ==> [2018-08-02 11:16:58 893] TCPPacketReceiver::processPendingEvents(192.168.1.103:2910): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:16:58,889] - ==> [2018-08-02 11:16:58 895] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:16:59,009] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2913): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:16:59,019] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:16:59,019] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:16:59,019] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:16:59,019] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:16:59,019] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:16:59,019] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:16:59,019] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:16:59,019] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:16:59,019] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:16:59,019] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:16:59,023] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:16:59,023] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:16:59,023] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:16:59,042] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:16:59,042] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:16:59,349] - ThreadPool::destroy(): waiting for thread(2)[0x22dfcd0,0x22e0628,], try=1
+  INFO root [2018-08-02 11:17:01,493] - 
+  INFO root [2018-08-02 11:17:01,493] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2018-08-02 11:17:01,493] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [2018-08-02 11:17:01,499] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets_Battle of Gods/;D:/kbengine/assets_Battle of Gods/scripts/;D:/kbengine/assets_Battle of Gods/res/
+  INFO root [2018-08-02 11:17:01,499] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [2018-08-02 11:17:01,509] - NetworkInterface::initialize(EXTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:20013 )
+  INFO root [2018-08-02 11:17:01,509] - NetworkInterface::initialize(EXTERNAL): address 192.168.1.103:20013, SOMAXCONN=128.
+  INFO root [2018-08-02 11:17:01,523] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 192.168.1.103 ( 192.168.1.103:2987 )
+  INFO root [2018-08-02 11:17:01,523] - NetworkInterface::initialize(INTERNAL): address 192.168.1.103:2987, SOMAXCONN=128.
+  INFO root [2018-08-02 11:17:01,529] - server-configs:
+  INFO root [2018-08-02 11:17:01,529] - 	internalAddr : 192.168.1.103:2987
+  INFO root [2018-08-02 11:17:01,529] - 	externalAddr : 192.168.1.103:20013
+  INFO root [2018-08-02 11:17:01,529] - 	componentID : 9000
+  INFO root [2018-08-02 11:17:01,763] - Components::findLogger: found logger, addr:192.168.1.103:2981
+  INFO root [2018-08-02 11:17:01,763] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [2018-08-02 11:17:01,763] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2018-08-02 11:17:01,779] - ---- loginapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: B20F257E332779D9E1EA7D34638E6146. Config: Debug X86. Built: 16:27:30 Apr 30 2018. AppID: 9000. UID: 10103. PID: 9644 ----
+  INFO root [2018-08-02 11:17:01,813] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [2018-08-02 11:17:01,813] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2018-08-02 11:17:01,813] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [2018-08-02 11:17:01,969] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:17:01,969] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:17:01,973] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:17:01,973] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:17:01,979] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:17:01,979] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:17:01,979] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:17:02,043] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:17:02,103] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:27) [MSC v.1900 32 bit (Intel)])!
+  INFO root [2018-08-02 11:17:02,103] - Script::install(): KBExtra is successfully!
+S_INFO root [2018-08-02 11:17:02,103] - onLoginAppReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+  INFO root [2018-08-02 11:17:02,103] - TelnetServer server is running on port 31000
+  INFO root [2018-08-02 11:17:02,633] - ---- loginapp is running ----
+ DEBUG root [2018-08-02 11:17:02,633] - Components::process(): Request for the process of identity...
+  WARN root [2018-08-02 11:17:09,059] - Forwarding logs to logger[192.168.1.103:2981/0/0/0]...
+ ERROR root [2018-08-02 11:25:50,795] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:25:50,797] - The following logs sent to logger failed:
+  WARN root [2018-08-02 11:25:50,798] - ==> [2018-08-02 11:25:50 795] TCPPacketReceiver::processPendingEvents(192.168.1.103:2981): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:25:50,798] - ==> [2018-08-02 11:25:50 796] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [2018-08-02 11:25:50,951] - TCPPacketReceiver::processPendingEvents(192.168.1.103:2982): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2018-08-02 11:25:50,955] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [2018-08-02 11:25:50,956] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [2018-08-02 11:25:50,958] - onLoginAppShutDown()
+  INFO root [2018-08-02 11:25:50,958] - Shutdowner::onShutdown: shutting down
+  INFO root [2018-08-02 11:25:50,959] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2018-08-02 11:25:50,969] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [2018-08-02 11:25:50,970] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [2018-08-02 11:25:50,970] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [2018-08-02 11:25:50,971] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [2018-08-02 11:25:50,971] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [2018-08-02 11:25:50,971] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [2018-08-02 11:25:50,971] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [2018-08-02 11:25:50,972] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [2018-08-02 11:25:51,007] - Script::uninstall(): is successfully!
+ DEBUG root [2018-08-02 11:25:51,009] - ThreadPool::destroy(): starting size 2.
+  WARN root [2018-08-02 11:25:51,311] - ThreadPool::destroy(): waiting for thread(2)[0xa28e80,0xa28ce0,], try=1

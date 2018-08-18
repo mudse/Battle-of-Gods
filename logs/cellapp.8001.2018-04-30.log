@@ -1,0 +1,118 @@
+  INFO root [0x00000d3c] [2018-04-30 18:11:22,246] - 
+  INFO root [0x00003428] [2018-04-30 18:15:57,120] - 
+  INFO root [0x00003428] [2018-04-30 18:15:57,121] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003428] [2018-04-30 18:15:57,123] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x00003428] [2018-04-30 18:15:57,123] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets/;D:/kbengine/assets/scripts/;D:/kbengine/assets/res/
+  INFO root [0x00003428] [2018-04-30 18:15:57,123] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x00003428] [2018-04-30 18:15:57,131] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.1.9.9 ( 10.1.9.9:22091 )
+  INFO root [0x00003428] [2018-04-30 18:15:57,131] - NetworkInterface::initialize(INTERNAL): address 10.1.9.9:22091, SOMAXCONN=5.
+  INFO root [0x00003428] [2018-04-30 18:15:57,132] - server-configs:
+  INFO root [0x00003428] [2018-04-30 18:15:57,132] - 	gameUpdateHertz : 10
+  INFO root [0x00003428] [2018-04-30 18:15:57,132] - 	defaultViewRadius : 80
+  INFO root [0x00003428] [2018-04-30 18:15:57,132] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003428] [2018-04-30 18:15:57,133] - 	entryScriptFile : kbemain
+  INFO root [0x00003428] [2018-04-30 18:15:57,133] - 	internalAddr : 10.1.9.9:22091
+  INFO root [0x00003428] [2018-04-30 18:15:57,133] - 	componentID : 8001
+  INFO root [0x00003428] [2018-04-30 18:15:57,225] - Components::findLogger: found logger, addr:10.1.9.9:22074
+  INFO root [0x00003428] [2018-04-30 18:15:57,225] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00003428] [2018-04-30 18:15:57,226] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003428] [2018-04-30 18:15:57,236] - ---- cellapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: 85A70C5E64F896E0F1A60BF405B4EB07. Config: Debug X86. Built: 16:28:54 Apr 30 2018. AppID: 8001. UID: 10103. PID: 14228 ----
+  INFO root [0x00003428] [2018-04-30 18:15:57,236] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [0x00003428] [2018-04-30 18:15:57,237] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003428] [2018-04-30 18:15:57,237] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,379] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,379] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,380] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,385] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,385] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,385] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,386] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003428] [2018-04-30 18:15:57,430] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003428] [2018-04-30 18:15:57,477] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:35) [MSC v.1900 32 bit (Intel)])!
+  INFO root [0x00003428] [2018-04-30 18:15:57,477] - Script::install(): KBExtra is successfully!
+  INFO root [0x00003428] [2018-04-30 18:15:57,493] - TelnetServer server is running on port 50000
+  INFO root [0x00003428] [2018-04-30 18:15:58,107] - ---- cellapp is running ----
+ DEBUG root [0x00003428] [2018-04-30 18:15:58,108] - Components::process(): Request for the process of identity...
+  WARN root [0x00003428] [2018-04-30 18:16:04,461] - Forwarding logs to logger[10.1.9.9:22074/0/0/0]...
+ ERROR root [0x00003428] [2018-04-30 18:19:28,571] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x00003428] [2018-04-30 18:19:28,573] - The following logs sent to logger failed:
+  WARN root [0x00003428] [2018-04-30 18:19:28,574] - ==> [2018-04-30 18:19:28 571] TCPPacketReceiver::processPendingEvents(10.1.9.9:22074): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003428] [2018-04-30 18:19:28,574] - ==> [2018-04-30 18:19:28 573] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x00003428] [2018-04-30 18:19:28,680] - TCPPacketReceiver::processPendingEvents(10.1.9.9:22076): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003428] [2018-04-30 18:19:28,682] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x00003428] [2018-04-30 18:19:28,685] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003428] [2018-04-30 18:19:28,685] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00003428] [2018-04-30 18:19:28,686] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,686] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,687] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,704] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,704] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,704] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,704] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,704] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,705] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,705] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,705] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003428] [2018-04-30 18:19:28,720] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003428] [2018-04-30 18:19:28,720] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003428] [2018-04-30 18:19:29,021] - ThreadPool::destroy(): waiting for thread(2)[0x3caada8,0x3cab018,], try=1
+  INFO root [0x000016f4] [2018-04-30 18:19:31,150] - 
+  INFO root [0x000016f4] [2018-04-30 18:19:31,150] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000016f4] [2018-04-30 18:19:31,152] - Resmgr::initialize: KBE_ROOT=D:/kbengine/
+  INFO root [0x000016f4] [2018-04-30 18:19:31,152] - Resmgr::initialize: KBE_RES_PATH=D:/kbengine/kbe/res/;D:/kbengine/assets/;D:/kbengine/assets/scripts/;D:/kbengine/assets/res/
+  INFO root [0x000016f4] [2018-04-30 18:19:31,152] - Resmgr::initialize: KBE_BIN_PATH=D:/kbengine/kbe/bin/server/
+  INFO root [0x000016f4] [2018-04-30 18:19:31,157] - NetworkInterface::initialize(INTERNAL): bound to all interfaces with default route interface on 10.1.9.9 ( 10.1.9.9:22227 )
+  INFO root [0x000016f4] [2018-04-30 18:19:31,157] - NetworkInterface::initialize(INTERNAL): address 10.1.9.9:22227, SOMAXCONN=5.
+  INFO root [0x000016f4] [2018-04-30 18:19:31,157] - server-configs:
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	gameUpdateHertz : 10
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	defaultViewRadius : 80
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	entryScriptFile : kbemain
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	internalAddr : 10.1.9.9:22227
+  INFO root [0x000016f4] [2018-04-30 18:19:31,158] - 	componentID : 8001
+  INFO root [0x000016f4] [2018-04-30 18:19:31,375] - Components::findLogger: found logger, addr:10.1.9.9:22222
+  INFO root [0x000016f4] [2018-04-30 18:19:31,375] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x000016f4] [2018-04-30 18:19:31,375] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000016f4] [2018-04-30 18:19:31,385] - ---- cellapp Version: 2.0.0. ScriptVersion: 0.1.0. Protocol: 85A70C5E64F896E0F1A60BF405B4EB07. Config: Debug X86. Built: 16:28:54 Apr 30 2018. AppID: 8001. UID: 10103. PID: 6616 ----
+  INFO root [0x000016f4] [2018-04-30 18:19:31,386] - Server : Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz with 2097151kB RAM
+  INFO root [0x000016f4] [2018-04-30 18:19:31,386] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000016f4] [2018-04-30 18:19:31,386] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,528] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,528] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,529] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,532] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,532] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,533] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,533] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000016f4] [2018-04-30 18:19:31,575] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000016f4] [2018-04-30 18:19:31,627] - Script::install(): is successfully, Python=(3.4.2 (default, Apr 30 2018, 16:27:35) [MSC v.1900 32 bit (Intel)])!
+  INFO root [0x000016f4] [2018-04-30 18:19:31,628] - Script::install(): KBExtra is successfully!
+  INFO root [0x000016f4] [2018-04-30 18:19:31,637] - TelnetServer server is running on port 50000
+  INFO root [0x000016f4] [2018-04-30 18:19:32,162] - ---- cellapp is running ----
+ DEBUG root [0x000016f4] [2018-04-30 18:19:32,162] - Components::process(): Request for the process of identity...
+  WARN root [0x000016f4] [2018-04-30 18:19:38,341] - Forwarding logs to logger[10.1.9.9:22222/0/0/0]...
+ ERROR root [0x000016f4] [2018-04-30 18:20:52,305] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  INFO root [0x000016f4] [2018-04-30 18:20:52,309] - The following logs sent to logger failed:
+  WARN root [0x000016f4] [2018-04-30 18:20:52,310] - ==> [2018-04-30 18:20:52 303] TCPPacketReceiver::processPendingEvents(10.1.9.9:22222): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000016f4] [2018-04-30 18:20:52,310] - ==> [2018-04-30 18:20:52 306] Components::removeComponentByChannel: logger : 2000, Abnormal exit! errorno=10054
+  WARN root [0x000016f4] [2018-04-30 18:20:52,398] - TCPPacketReceiver::processPendingEvents(10.1.9.9:22223): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000016f4] [2018-04-30 18:20:52,406] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! errorno=10054
+  INFO root [0x000016f4] [2018-04-30 18:20:52,409] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000016f4] [2018-04-30 18:20:52,409] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000016f4] [2018-04-30 18:20:52,409] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,410] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,410] - Witness::destroyObjPool(): size 0.
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,430] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,430] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,430] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,430] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,431] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,431] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,431] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,431] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x000016f4] [2018-04-30 18:20:52,448] - Script::uninstall(): is successfully!
+ DEBUG root [0x000016f4] [2018-04-30 18:20:52,448] - ThreadPool::destroy(): starting size 2.
